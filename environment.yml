@@ -1,0 +1,16 @@
+name: tp53_analysis
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - biopython
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - clustalw
+  - pip
+  - pip:
+    - jupyter
