@@ -10,7 +10,7 @@ dependencies:
   - pandas
   - matplotlib
   - seaborn
-  - clustalw
+  - clustal-omega
   - pip
   - pip:
     - jupyter
