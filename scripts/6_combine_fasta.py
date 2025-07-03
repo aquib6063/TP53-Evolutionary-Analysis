@@ -8,10 +8,10 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # Base directory (should be the project root)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# Output file path
+# Input/output paths
 OUTPUT_FILE = os.path.join(BASE_DIR, "data", "raw_sequences", "all_species_TP53.fasta")
 
-# Species folder mapping
+# Species and their file paths
 SPECIES_FILES = {
     "Human": "TP53_HUMAN_datasets/ncbi_dataset/data/TP53.faa",
     "Pig": "TP53_Sus scrofa (pig)_datasets-4/ncbi_dataset/data/TP53.faa",
@@ -21,31 +21,52 @@ SPECIES_FILES = {
 }
 
 def combine_fasta():
-    """Combine TP53 sequences from all species into a single FASTA file"""
+    """Combine FASTA sequences from all species, keeping only the longest sequence per species"""
     try:
         # Create output directory if it doesn't exist
         os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
         
-        with open(OUTPUT_FILE, "w") as out_handle:
-            for species, rel_path in SPECIES_FILES.items():
-                file_path = os.path.join(BASE_DIR, rel_path)
+        # Create output file
+        with open(OUTPUT_FILE, "w") as outfile:
+            for species, file_path in SPECIES_FILES.items():
+                full_path = os.path.join(BASE_DIR, file_path)
                 
-                if not os.path.exists(file_path):
-                    logging.error(f"❌ File not found: {file_path}")
+                # Check if file exists
+                if not os.path.exists(full_path):
+                    logging.error(f" File not found: {full_path}")
                     continue
                     
                 logging.info(f"Processing {species} sequences...")
-                for record in SeqIO.parse(file_path, "fasta"):
-                    if "TP53" in record.description or "p53" in record.description.lower():
-                        # Update record ID and description
-                        record.id = f"{species}_TP53"
-                        record.description = f"{species} TP53 gene"
-                        SeqIO.write(record, out_handle, "fasta")
+                
+                # Read sequences
+                try:
+                    # Try both FASTA and GenBank formats
+                    try:
+                        records = list(SeqIO.parse(full_path, "fasta"))
+                    except:
+                        records = list(SeqIO.parse(full_path, "genbank"))
+                    
+                    # If we found sequences, get the longest one
+                    if records:
+                        # Get the longest sequence
+                        longest_record = max(records, key=lambda r: len(str(r.seq)))
+                        
+                        # Write to output
+                        longest_record.id = f"{species}_TP53"
+                        longest_record.description = f"{species} TP53 gene"
+                        SeqIO.write(longest_record, outfile, "fasta")
+                        
+                        logging.info(f" Added {species} sequence")
+                    else:
+                        logging.warning(f"No sequences found in {full_path}")
+                        
+                except Exception as e:
+                    logging.error(f" Error processing {species}: {str(e)}")
         
-        logging.info(f"✅ Combined FASTA saved to: {OUTPUT_FILE}")
+        logging.info(f" Combined FASTA saved to: {OUTPUT_FILE}")
         
     except Exception as e:
-        logging.error(f"❌ Error combining FASTA files: {str(e)}")
+        logging.error(f" Error combining FASTA files: {str(e)}")
 
 if __name__ == "__main__":
     combine_fasta()
