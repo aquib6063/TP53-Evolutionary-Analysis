@@ -55,6 +55,7 @@ python scripts/2_run_alignment.py
 python scripts/3_analyze_variations.py
 python scripts/4_gc_content_analysis.py
 python scripts/5_generate_figures.py
+python scripts/6_combine_fasta.py
 ```
 
 ## Data
