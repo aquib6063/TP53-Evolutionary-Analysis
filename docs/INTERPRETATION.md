@@ -1,33 +1,96 @@
-# Results Interpretation
+# TP53 Gene Analysis Summary
 
-## Sequence Alignment
+## Sequence Length Analysis
 
-The alignment results show high conservation in core functional domains of TP53 across species, with notable variations in non-coding regions.
+| Species | Sequence Length |
 
-## Variation Analysis
+|---------|----------------|
 
-Key findings from variation analysis:
-1. Species-specific variations identified in pig TP53
-2. Conservation patterns across functional domains
-3. Potential functional implications of variations
+| Human | 19070 bp |
 
-## GC Content
+| Pig | 14144 bp |
 
-GC content analysis reveals:
-- Conservation of GC-rich regions in functional domains
-- Species-specific GC content patterns
-- Potential implications for gene expression and stability
+| Zebrafish | 11579 bp |
 
-## Figures
+| Rhesus | 19193 bp |
 
-### Alignment Conservation
-- Shows conservation patterns across species
-- Highlights variable regions
+| Rat | 11430 bp |
 
-### GC Content Changes
-- Visualizes GC content distribution
-- Compares species-specific patterns
 
-### Domain Variation
-- Displays variation patterns across domains
-- Identifies conserved and variable regions
+## Pig-Specific Variations
+
+Total pig-specific variations: 5004
+
+
+### Variation Types
+
+| Base | Count | Percentage |
+
+|------|-------|------------|
+
+| C | 1395 | 27.9% |
+
+| G | 1387 | 27.7% |
+
+| T | 1188 | 23.7% |
+
+| A | 1034 | 20.7% |
+
+
+## GC Content Analysis
+
+### Domain-wise GC Content Comparison
+
+| Domain | Human GC% | Pig GC% | Difference |
+
+|--------|-----------|----------|------------|
+
+| N-terminal | 59.1 | 54.1 | -5.0 |
+
+| DNA-binding | 52.5 | 53.0 | +0.5 |
+
+| Oligomerization | 52.7 | 48.4 | -4.3 |
+
+| C-terminal | 48.1 | 33.3 | -14.8 |
+
+
+### Species-wise GC Content
+
+| Species | Average GC% |
+
+|---------|-------------|
+
+| Human | 53.1 |
+
+| Pig | 47.2 |
+
+| Rat | 54.2 |
+
+| Rhesus_Monkey | 53.6 |
+
+| Zebrafish | 37.2 |
+
+
+## Key Findings
+
+1. Sequence Length:
+
+   - Longest sequence: Rhesus (19193 bp)
+
+   - Shortest sequence: Rat (11430 bp)
+
+
+2. Pig-Specific Variations:
+
+   - Total variations: 5004
+
+   - Most common variation: C (27.9% of variations)
+
+
+3. GC Content:
+
+   - Highest GC content domain: N-terminal
+
+   - Lowest GC content domain: Oligomerization
+
+   - Zebrafish shows significantly lower GC content compared to mammals
