@@ -1,0 +1,7 @@
+domain_start,domain_end,human_ptm_type,pig_ptm_type,sequence_similarity,disruption_type
+300,450,ubiquitination,ubiquitination,43.0,loss
+325,393,ubiquitination,ubiquitination,24.0,loss
+330,380,ubiquitination,ubiquitination,14.0,loss
+340,410,ubiquitination,ubiquitination,22.0,loss
+350,400,ubiquitination,ubiquitination,16.0,loss
+360,393,ubiquitination,ubiquitination,9.0,loss
