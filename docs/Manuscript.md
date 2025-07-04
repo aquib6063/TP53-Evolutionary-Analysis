@@ -14,6 +14,207 @@ Pigs (*Sus scrofa*) maintain low cancer incidence despite large body size, chall
 
 ---
 
+## Methods
+
+#### A. Sequence Acquisition and Preparation
+
+1. **Species Selection**:
+   - Five model organisms were selected representing different evolutionary lineages:
+     - Mammals: Human (*Homo sapiens*), Pig (*Sus scrofa*), Rhesus monkey (*Macaca mulatta*), Rat (*Rattus norvegicus*)
+     - Fish: Zebrafish (*Danio rerio*)
+   - Species were chosen based on their availability in NCBI databases and relevance to cancer biology
+
+2. **Sequence Retrieval**:
+   - Full-length TP53 gene sequences were downloaded from NCBI using BioPython's Entrez module
+   - Multiple isoforms were identified and the longest transcript was selected for each species
+   - Sequences were validated for completeness and quality
+
+3. **Sequence Processing**:
+   - Raw sequences were cleaned and formatted using BioPython's SeqIO module
+   - Sequence IDs were standardized across species
+   - A combined FASTA file was created containing all species sequences
+
+#### B. Sequence Alignment and Analysis
+
+1. **Multiple Sequence Alignment**:
+   - Sequences were aligned using BioPython's PairwiseAligner
+   - Gaps were introduced to maintain sequence alignment
+   - Alignment quality was verified using pairwise identity scores
+
+2. **Variation Analysis**:
+   - Pig-specific nucleotide variations were identified by comparing aligned sequences
+   - Variations were categorized by base type (A, C, G, T)
+   - Statistical significance was assessed using chi-squared tests
+
+3. **Variant Annotation**:
+   - Variants were converted to VCF format using custom script
+   - Functional annotation was performed in a Docker container environment
+   - Annotation pipeline:
+     ```bash
+     # Docker-based annotation pipeline
+     # 1. Build Docker image with SnpEff and VEP
+     docker build -t tp53-variant-analysis .
+
+     # 2. Run annotation in container
+     docker run -v $(pwd):/data tp53-variant-analysis bash -c "
+         # Run SnpEff annotation
+         java -jar /opt/snpEff/snpEff.jar Sscrofa11.1 pig_variants.vcf > annotated_variants.vcf
+
+         # Run VEP annotation
+         perl /opt/vep/variant_effect_predictor/variant_effect_predictor.pl \
+             -i annotated_variants.vcf \
+             -o vep_annotated.txt \
+             --species pig \
+             --cache
+     "
+     ```
+   - Annotation results included:
+     - High-impact variants (stop-gains, splice sites)
+     - Pathogenicity scores (PolyPhen-2, SIFT)
+     - Functional impact predictions
+     - Domain-specific variant distribution
+     - Conservation scores
+     - Variant type classification
+     - Correlation between prediction scores
+
+4. **Statistical Analysis**:
+   - Impact Distribution Analysis:
+     - Chi-squared test for impact type distribution
+     - Statistical significance of impact frequencies
+   
+   - Pathogenicity Score Analysis:
+     - Mean and standard deviation calculation
+     - Normality testing using Shapiro-Wilk test
+     - Distribution visualization with KDE plots
+   
+   - Domain-Specific Analysis:
+     - Chi-squared test for domain distribution
+     - Conservation score analysis
+     - Boxplot visualization of conservation scores
+   
+   - High-Impact Variant Analysis:
+     - Domain distribution analysis
+     - Conservation score comparison
+     - Impact type classification
+   
+   - Correlation Analysis:
+     - Pearson correlation between PolyPhen and SIFT scores
+     - Scatter plot visualization
+     - Correlation significance testing
+
+5. **Data Visualization**:
+   - Impact Distribution:
+     - Bar plots with error bars
+     - Statistical annotations
+   
+   - Pathogenicity Scores:
+     - Histograms with KDE
+     - Normality plots
+     - Score distributions
+   
+   - Domain Analysis:
+     - Stacked bar plots
+     - Box plots for conservation
+     - Domain-specific distributions
+   
+   - Variant Types:
+     - Pie charts
+     - Distribution plots
+     - Type-specific analysis
+   
+   - Correlation Visualization:
+     - Scatter plots
+     - Correlation matrices
+     - Heatmaps
+
+3. **Domain-Specific Analysis**:
+   - TP53 gene was divided into four functional domains:
+     - N-terminal domain
+     - DNA-binding domain
+     - Oligomerization domain
+     - C-terminal domain
+   - Domain boundaries were defined based on known functional regions
+
+#### C. GC Content Analysis
+
+1. **GC Content Calculation**:
+   - GC percentage was calculated for each domain using BioPython's SeqUtils module
+   - GC content was normalized across species
+   - Domain-specific GC content was compared between species
+
+2. **Statistical Analysis**:
+   - Pairwise comparisons of GC content were performed
+   - Statistical significance was assessed using t-tests
+   - Domain-specific GC content trends were analyzed
+
+#### D. Phylogenetic Analysis
+
+1. **Distance Matrix Calculation**:
+   - Pairwise sequence distances were calculated using BioPython's DistanceCalculator
+   - Distance metrics were based on sequence identity
+   - Distance matrix was visualized using heatmap
+
+2. **Tree Construction**:
+   - Phylogenetic tree was constructed using Neighbor-Joining method
+   - Branch lengths were calculated based on sequence distances
+   - Tree topology was validated using bootstrap analysis
+
+3. **Tree Visualization**:
+   - Tree was visualized using BioPython's Phylo module
+   - Branch lengths were displayed
+   - Species names were simplified for clarity
+
+#### E. Data Visualization
+
+1. **Sequence Comparison**:
+   - Heatmaps of sequence identity were generated
+   - Distribution plots of sequence distances were created
+   
+2. **GC Content Visualization**:
+   - Domain-wise GC content was plotted
+   - Species comparisons were visualized
+   - Statistical significance was indicated
+
+3. **Variant Impact Visualization**:
+   - High-impact variant distribution across domains
+   - Pathogenicity score distribution
+   - Impact type categorization
+
+4. **Evolutionary Strategy Diagram**:
+
+1. **Sequence Comparison**:
+   - Heatmaps of sequence identity were generated
+   - Distribution plots of sequence distances were created
+   
+2. **GC Content Visualization**:
+   - Domain-wise GC content was plotted
+   - Species comparisons were visualized
+   - Statistical significance was indicated
+
+3. **Evolutionary Strategy Diagram**:
+   - Network diagram was created using matplotlib
+   - Evolutionary paths were visualized
+   - Comparative analysis was presented
+
+#### F. Statistical Analysis
+
+1. **Variation Distribution**:
+   - Base composition was analyzed
+   - Statistical significance of variations was assessed
+   - Distribution patterns were identified
+
+2. **GC Content Comparison**:
+   - Domain-wise comparisons were performed
+   - Species comparisons were analyzed
+   - Statistical significance was determined
+
+3. **Tree Topology**:
+   - Branch support values were calculated
+   - Evolutionary relationships were validated
+   - Species divergence was quantified
+
+---
+
 ## Main Text
 
 ### 1. The Cancer Resistance Enigma
