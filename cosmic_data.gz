@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="language" content="en" />
+    <meta name="author" content="Cosmic" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    
+
+    <title>Login</title>
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/images/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/images/favicons/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="COSMIC"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="/images/favicons/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="/images/favicons/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="/images/favicons/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="/images/favicons/mstile-310x310.png" />
+    <link rel="stylesheet" type="text/css" href="/_asset/950c41da16a4a161e56be1e5a29a6904.css" />
+    <link rel="stylesheet" type="text/css" href="/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Josefin+Sans" />
+    <meta name="google-site-verification" content="VcmyCwfI1Nck5ULPrP5Y2RSxGYx9CJPlPE8a58YCy7A" />
+    <meta name="google-site-verification" content="YpuNbM3AWQsrBfgbm6pAjpmgN0yEh6Ev22jaWYzlprE" />
+
+
+
+<script type="application/ld+json">
+[
+  {
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "name": "COSMIC",
+    "description": "COSMIC, the Catalogue Of Somatic Mutations In Cancer, is the world's largest and most comprehensive resource for exploring the impact of somatic mutations in human cancer",
+    "version": "102",
+    "identifier": "10.1093/nar/gkw1121",
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://cancer.sanger.ac.uk/cosmic/download"
+      },
+    "sourceOrganization": "Wellcome Sanger Institute",
+    "datePublished": "2025-05-21"
+  },
+  {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://cancer.sanger.ac.uk/cosmic",
+      "name": "COSMIC: Catalogue of Somatic Mutations in Cancer",
+      "description": "COSMIC, the Catalogue Of Somatic Mutations In Cancer, is the world's largest and most comprehensive resource for exploring the impact of somatic mutations in human cancer",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://cancer.sanger.ac.uk/cosmic/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "COSMIC: Catalogue of Somatic Mutations in Cancer",
+    "description": "COSMIC, the Catalogue Of Somatic Mutations In Cancer, is the world's largest and most comprehensive resource for exploring the impact of somatic mutations in human cancer",
+    "url": "https://cancer.sanger.ac.uk/cosmic",
+    "logo": "https://cancer.sanger.ac.uk/images/banners/cosmic_banner_328x68.png",
+    "sameAs": [
+      "https://www.facebook.com/cosmic.sanger",
+      "https://twitter.com/cosmic_sanger",
+      "https://uk.linkedin.com/company/cosmic-sanger"
+    ]
+  }
+]
+</script>
+
+  </head>
+
+  <body id="project" class="s-n site-cosmic domain-cosmic">
+
+    <div id="main">
+
+<header class="logo_grch38">
+  <a id="banner" href="/cosmic">&nbsp;</a>
+  <a id="domain-logo" href="/cosmic">&nbsp;</a>
+</header>
+
+<nav class="cosmic">
+  <ul class="slimmenu">
+    <li>
+      <a href="#">Projects</a>
+      <ul>
+        <li><a rel="no-external" href="/cosmic">COSMIC</a></li>
+        <li><a rel="no-external" href="/cell_lines">Cell Lines Project</a></li>
+        <li><a rel="no-external" href="http://cancer.sanger.ac.uk/cosmic3d">COSMIC-3D</a></li>
+        <li><a rel="no-external" href="/census">Cancer Gene Census</a></li>
+        <li><a rel="no-external" href="/cmc/">Cancer Mutation Census</a></li>
+        <li><a rel="no-external" href="/actionability/">Actionability</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Data</a>
+      <ul>
+        <li><a rel="no-external" href="/cosmic/download/">Downloads</a></li>
+        <li><a rel="no-external" href="/cosmic/curation">Gene Curation</a></li>
+        <li><a rel="no-external" href="/cosmic/fusion">Gene Fusion Curation</a></li>
+        <li><a rel="no-external" href="/cosmic/papers">Genome Screens</a></li>
+        <li><a rel="no-external" href="/cosmic/drug_resistance">Drug Resistance</a></li>
+        <li><a rel="no-external" href="/cosmic/signatures">Mutational signatures</a></li>
+        <li><a rel="no-external" href="/actionability/">Actionability</a></li>
+        <!--
+        <li>
+          <a href="#">Mutational Signatures</a>
+          <ul>
+            <li><a rel="no-external" href="/cosmic/signatures">Version 3 (March 2019)</a></li>
+            <li><a rel="no-external" href="/cosmic/signatures_v2">Version 2 (March 2015)</a></li>
+          </ul>
+        </li>
+        -->
+      </ul>
+    </li>
+    <li>
+      <a href="#">Tools</a>
+      <ul>
+        <li><a rel="no-external" href="/cosmic/browse/tissue">Cancer Browser</a></li>
+        <li><a rel="no-external" href="/cosmic/browse/genome">Genome Browser</a></li>
+        <li><a rel="no-external" href="/cosmic/conan/search">CONAN</a></li>
+        <li><a rel="no-external" href="/cosmic/beacon">GA4GH Beacon</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">News</a>
+      <ul>
+        <li><a rel="no-external" href="/cosmic/release_notes/">Release Notes</a></li>
+        <li><a rel="no-external" href="http://cosmic-blog.sanger.ac.uk/">News</a></li>
+        <li><a rel="no-external" href="/cosmic/mailing_list">Mailing List</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Help</a>
+      <ul>
+        <li><a rel="no-external" href="/cosmic/contact">Contact Us</a></li>
+        <li><a rel="no-external" href="/cosmic/help">Documentation</a></li>
+        <li><a rel="no-external" href="/cosmic/help/faq">FAQ</a></li>
+        <li><a rel="no-external" href="/cosmic/classification">Classification</a></li>
+        <li><a rel="no-external" href="/cosmic/license">Licensing</a></li>
+        <!-- 
+          <li><a rel="no-external" href="/cosmic/license/faq">Licensing FAQ</a></li>
+        -->
+        <li><a rel="no-external" href="/cosmic/submissions">Data Submission</a></li>
+        <li><a rel="no-external" href="/cosmic/analyses">Genome Annotation</a></li>
+        <li><a rel="no-external" href="/cosmic/variant-updates">Variant Updates</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">About</a>
+      <ul>
+        <li><a rel="no-external" href="/cosmic/about">About COSMIC</a></li>
+        <li><a rel="no-external" href="/cosmic/terms">Terms and Conditions</a></li>
+        <li><a rel="no-external" href="/cosmic/privacy">Privacy Policy</a></li>
+        <li><a rel="no-external" href="/cosmic/publications">Publications</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Genome Version</a>
+      <ul>
+        <li><a rel="no-external" href="https://cancer.sanger.ac.uk/cosmic/login?genome=37">GRCh37</a></li>
+        <li><a rel="no-external" href="https://cancer.sanger.ac.uk/cosmic/login?genome=38">GRCh38 &#10004;</a></li>
+      </ul>
+    </li>
+     <li id="cosmic-search-form">
+      <form action="https://cancer.sanger.ac.uk/cosmic/search" method="get">
+        <div>
+          <input name="q" id="q" type="text" placeholder="Search COSMIC..." />
+          <button id="nav-search-button" type="submit">Search</button>
+        </div>
+      </form>
+    </li>
+
+    <li id="login-menu">
+        <a href="https://cancer.sanger.ac.uk/cosmic/login">Login</a>
+        <ul>
+          <li><a href="https://cancer.sanger.ac.uk/cosmic/login">Login</a></li>
+          <li><a href="https://cancer.sanger.ac.uk/cosmic/register">Register</a></li>
+        </ul>
+    </li>
+  </ul>
+  <div id="announcement-banner"><p>Starting on April 2nd, existing users must re-register upon their first visit to continue using our web platform. This registration process only needs to be completed ONCE: To complete this step, login and you will be redirected to our re-registration page. Please contact us via cosmic@sanger.ac.uk if you encounter any issues.</p></div>
+</nav>
+
+      
+<!--
+<div id="announcement-banner">
+     <strong>Commercial users:</strong> please access COSMIC data downloads from the 
+     <a href="https://my.qiagendigitalinsights.com/">Qiagen</a> website. 
+</div>  
+-->
+
+<div class="rs">
+  <h2>Login</h2>
+  <div class="centered-panel">
+  <p>
+     <strong>Commercial users:</strong> please access COSMIC data downloads from the 
+     <a href="https://my.qiagendigitalinsights.com/">Qiagen</a> website. 
+  </p>
+
+    <form method="post" class="register">
+      <dl class="clear">
+        <dt>
+          <label for="email">Email *</label>
+        </dt>
+        <dd>
+          <input type="text"
+                 class="required"
+                 value=""
+                 placeholder="Registered email address"
+                 name="email"
+                 autofocus></input>
+        </dd>
+
+        <dt>
+          <label for="password">Password *</label>
+        </dt>
+        <dd>
+          <input type="password"
+                 class="required"
+                 name="pass"
+                 placeholder="COSMIC password"
+                 autocomplete="off"
+                 value=""></input>
+        </dd>
+
+
+        <dt></dt>
+        <dd>
+          <button class="agree" type="submit">Login</button>
+          <a href="https://cancer.sanger.ac.uk/cosmic/forgotten">Forgotten your password?</a>
+        </dd>
+
+      </dl>
+      <input type="hidden" value="" name="r_url" />
+      <input type="hidden" value="0" name="d" />
+    </form>
+
+    <div class="callout">
+      <p class="small">
+        Please note that we use cookies to keep you logged in. By logging
+        in you accept that we will store a session cookie in your browser.
+        You can read more about our use of cookies in our
+        <a href="https://cancer.sanger.ac.uk/cosmic/privacy">privacy policy</a>.
+      </p>
+      <div class="boxed">
+        <p>
+          In order to access COSMIC data, you will need to
+          <a href="https://cancer.sanger.ac.uk/cosmic/register">register</a>.
+          <a href="https://cancer.sanger.ac.uk/cosmic/register" class="agree info">
+            Register&nbsp;now</a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+<footer>
+  <div id="footer-list-wrapper">
+    <div id="footer-col1" class="footer-col">
+      <h1>COSMIC</h1>
+      <ul class="footer-list">
+        <li><a rel="no-external" href="/cosmic/about">About</a></li>
+          <li><a href="https://cancer.sanger.ac.uk/cosmic/login">Login</a></li>
+          <li><a href="https://cancer.sanger.ac.uk/cosmic/register">Register</a></li>
+        <li>
+          <div id="google_translate_element"></div>
+        </li>
+      </ul>
+    </div>
+    <div id="footer-col2" class="footer-col">
+      <h1>Projects</h1>
+      <ul>
+        <li><a rel="no-external" href="/cosmic">COSMIC</a></li>
+        <li><a rel="no-external" href="/cell_lines">Cell Lines</a></li>
+        <li><a rel="no-external" href="https://cancer.sanger.ac.uk/cosmic3d">COSMIC-3D</a></li>
+        <li><a rel="no-external" href="/census">Gene Census</a></li>
+      </ul>
+    </div>
+    <div id="footer-col3" class="footer-col">
+      <h1>Documentation</h1>
+      <ul>
+        <li><a href="/cosmic/help/">Help</a></li>
+        <li><a href="/cosmic/license">Licensing</a></li>
+        <li><a href="/cosmic/terms">Terms & Conditions</a></li>
+        <li><a href="/cosmic/privacy">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div id="footer-col4" class="footer-col">
+      <h1>Contact</h1>
+      <ul>
+        <li>
+          <a class="social-icon mail" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#111;&#115;&#109;&#105;&#099;&#064;&#115;&#097;&#110;&#103;&#101;&#114;&#046;&#097;&#099;&#046;&#117;&#107;">
+            <i class="fa fa-envelope"></i>&#099;&#111;&#115;&#109;&#105;&#099;&#064;&#115;&#097;&#110;&#103;&#101;&#114;&#046;&#097;&#099;&#046;&#117;&#107;</a></li>
+        <li>
+          <a class="social-icon twitter external" href="https://twitter.com/cosmic_sanger">
+            <i class="fa fa-twitter"></i>@cosmic_sanger</a>
+        </li>
+        <li>
+          <a class="social-icon facebook external" href="https://www.facebook.com/cosmic.sanger">
+            <i class="fa fa-facebook-square"></i>cosmic.sanger</a>
+        </li>
+        <li>
+          <a class="social-icon linkedin external" href="https://www.linkedin.com/company/cosmic-sanger">
+            <i class="fa fa-linkedin"></i>cosmic-sanger</a>
+        </li>
+      </ul>
+      <a id="sanger-logo" rel="no-external" href="http://www.sanger.ac.uk/">&nbsp;</a>
+    </div>
+  </div>
+</footer>
+    </div>
+
+    <script type="text/javascript" src="/_asset/6a6a4902eb87ba0736c7c9c0fe354284.js"></script>
+
+
+<!-- Google analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84275884-3', 'auto');
+  ga('send', 'pageview');
+<!-- End Google analytics code -->
+
+</script>
+
+<!-- Piwik -->
+<script>
+var _paq = _paq || [];
+_paq.push(['trackPageView'],['enableLinkTracking'],['setTrackerUrl','/piwik.php'],['setSiteId',1]);
+</script>
+<script src="/zxtm/piwik-v3-full-170523.js"></script>
+<!-- End Piwik Code -->
+
+<script>
+
+var GOOGLE_ANALYTICS_CODE = "UA-84275884-3";
+var COOKIE_POLICY_RELATIVE_PATH = "/cosmic/cookie-policy/";
+function loadCookieConfiguration() {
+        window.CookiePolicy.set_ga_code(GOOGLE_ANALYTICS_CODE);
+        window.CookiePolicy.set_policy_url(COOKIE_POLICY_RELATIVE_PATH);
+        window.CookiePolicy.set_types('e1','t1')
+}
+
+
+if (window.self === window.top) 
+    loadCookieConfiguration()
+
+</script>
+
+
+    
+    
+
+
+<!-- google translate -->
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-84275884-3'}, 'google_translate_element');
+  }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+  </body>
+</html>

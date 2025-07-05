@@ -4,13 +4,17 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - python=3.9
+  - python=3.10
+  - pip
   - biopython
-  - numpy
   - pandas
   - matplotlib
   - seaborn
-  - clustal-omega
-  - pip
-  - pip:
-    - jupyter
+  - numpy
+  - scipy
+  - r-base
+  - r-rmats
+  - rpy2
+  - snpeff
+  - entrez-direct
+  - ncbi-entrez-direct
