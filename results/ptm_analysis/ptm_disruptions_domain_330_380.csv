@@ -1,0 +1,15 @@
+position,human_residue,pig_residue,human_ptm_type,pig_ptm_type,human_score,pig_score,human_local_score,pig_local_score,sequence_similarity,disruption_type,domain_start,domain_end,domain_size
+330,Q,N,,ubiquitination,0.0,0.2833333333333333,,,14.0,gain,330,380,50
+332,R,N,methylation,ubiquitination,0.32499999999999996,0.23750000000000004,,,14.0,change,330,380,50
+335,E,L,ubiquitination,,0.20454545454545453,0.0,,,14.0,loss,330,380,50
+336,R,V,methylation,,0.32272727272727275,0.0,,,14.0,loss,330,380,50
+338,E,P,ubiquitination,,0.2681818181818182,0.0,,,14.0,loss,330,380,50
+342,E,F,ubiquitination,,0.2590909090909091,0.0,,,14.0,loss,330,380,50
+345,E,F,ubiquitination,,0.2681818181818182,0.0,,,14.0,loss,330,380,50
+359,G,N,,ubiquitination,0.0,0.21363636363636365,,,14.0,gain,330,380,50
+360,G,K,,ubiquitination,0.0,0.2681818181818182,,,14.0,gain,330,380,50
+361,S,K,,ubiquitination,0.0,0.20454545454545459,,,14.0,gain,330,380,50
+363,A,N,,ubiquitination,0.0,0.20454545454545459,,,14.0,gain,330,380,50
+369,K,A,ubiquitination,,0.2681818181818182,0.0,,,14.0,loss,330,380,50
+371,K,A,ubiquitination,,0.2772727272727272,0.0,,,14.0,loss,330,380,50
+372,K,N,ubiquitination,,0.2772727272727272,0.0,,,14.0,loss,330,380,50
