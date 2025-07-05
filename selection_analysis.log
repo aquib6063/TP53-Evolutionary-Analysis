@@ -1,0 +1,72 @@
+2025-07-05 12:08:25,189 - INFO - Starting dN/dS analysis...
+2025-07-05 12:08:25,189 - ERROR - Error in codeml analysis: 'Invalid option: seqfile'
+2025-07-05 12:08:25,189 - ERROR - Error in main analysis: 'Invalid option: seqfile'
+2025-07-05 12:08:25,216 - INFO - Embedded R ended.
+2025-07-05 12:08:25,216 - INFO - Embedded R already ended.
+2025-07-05 12:11:43,219 - INFO - Starting dN/dS analysis...
+2025-07-05 12:11:43,219 - ERROR - Error in codeml analysis: 'Invalid option: seqfile'
+2025-07-05 12:11:43,219 - ERROR - Error in main analysis: 'Invalid option: seqfile'
+2025-07-05 12:11:43,242 - INFO - Embedded R ended.
+2025-07-05 12:11:43,242 - INFO - Embedded R already ended.
+2025-07-05 12:12:05,166 - INFO - Starting dN/dS analysis...
+2025-07-05 12:12:05,166 - ERROR - Error in codeml analysis: 'Invalid option: seqfile'
+2025-07-05 12:12:05,167 - ERROR - Error in main analysis: 'Invalid option: seqfile'
+2025-07-05 12:12:05,193 - INFO - Embedded R ended.
+2025-07-05 12:12:05,193 - INFO - Embedded R already ended.
+2025-07-05 12:12:42,100 - INFO - Starting dN/dS analysis...
+2025-07-05 12:12:42,101 - ERROR - Error in codeml analysis: 'Invalid option: seqfile'
+2025-07-05 12:12:42,101 - ERROR - Error in main analysis: 'Invalid option: seqfile'
+2025-07-05 12:12:42,123 - INFO - Embedded R ended.
+2025-07-05 12:12:42,123 - INFO - Embedded R already ended.
+2025-07-05 12:18:30,705 - INFO - Starting dN/dS analysis...
+2025-07-05 12:18:30,705 - INFO - Starting codeml analysis...
+2025-07-05 12:18:30,705 - ERROR - Error in codeml analysis: The specified tree file does not exist.
+2025-07-05 12:18:30,705 - ERROR - Error in main analysis: The specified tree file does not exist.
+2025-07-05 12:18:30,728 - INFO - Embedded R ended.
+2025-07-05 12:18:30,728 - INFO - Embedded R already ended.
+2025-07-05 12:48:24,479 - INFO - Starting dN/dS analysis...
+2025-07-05 12:48:24,479 - INFO - Starting codeml analysis...
+2025-07-05 12:48:24,485 - ERROR - Error in codeml analysis: [Errno 2] No such file or directory: 'codeml'
+2025-07-05 12:48:24,485 - ERROR - Error in main analysis: [Errno 2] No such file or directory: 'codeml'
+2025-07-05 12:48:24,510 - INFO - Embedded R ended.
+2025-07-05 12:48:24,511 - INFO - Embedded R already ended.
+2025-07-05 12:54:17,185 - INFO - Starting dN/dS analysis...
+2025-07-05 12:54:17,185 - INFO - Starting dN/dS calculation...
+2025-07-05 12:54:17,185 - ERROR - Error calculating dN/dS: name 'AlignIO' is not defined
+2025-07-05 12:54:17,185 - ERROR - Error in dN/dS analysis: name 'AlignIO' is not defined
+2025-07-05 12:54:17,185 - ERROR - Error in main analysis: name 'AlignIO' is not defined
+2025-07-05 12:54:17,208 - INFO - Embedded R ended.
+2025-07-05 12:54:17,208 - INFO - Embedded R already ended.
+2025-07-05 12:54:34,937 - INFO - Starting dN/dS analysis...
+2025-07-05 12:54:34,937 - INFO - Starting dN/dS calculation...
+2025-07-05 12:54:34,971 - ERROR - Error calculating dN/dS: 'TGA'
+2025-07-05 12:54:34,971 - ERROR - Error in dN/dS analysis: 'TGA'
+2025-07-05 12:54:34,971 - ERROR - Error in main analysis: 'TGA'
+2025-07-05 12:54:34,995 - INFO - Embedded R ended.
+2025-07-05 12:54:34,995 - INFO - Embedded R already ended.
+2025-07-05 12:54:51,492 - INFO - Starting dN/dS analysis...
+2025-07-05 12:54:51,492 - INFO - Starting dN/dS calculation...
+2025-07-05 12:54:51,540 - INFO - dN/dS analysis completed successfully
+2025-07-05 12:54:51,540 - INFO - Starting splicing analysis...
+2025-07-05 12:55:00,159 - ERROR - Error setting up R environment: The R package "rMATS" is not installed.
+2025-07-05 12:55:00,159 - ERROR - Error in splicing analysis: The R package "rMATS" is not installed.
+2025-07-05 12:55:00,159 - ERROR - Error in main analysis: The R package "rMATS" is not installed.
+2025-07-05 12:55:00,201 - WARNING - R callback write-console: Warning message:
+  
+2025-07-05 12:55:00,201 - WARNING - R callback write-console: package ‘rMATS’ is not available for this version of R
+
+A version of this package for your version of R might be available elsewhere,
+see the ideas at
+https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages 
+  
+2025-07-05 12:55:00,201 - INFO - Embedded R ended.
+2025-07-05 12:55:00,201 - INFO - Embedded R already ended.
+2025-07-05 12:56:03,724 - INFO - Starting dN/dS analysis...
+2025-07-05 12:56:03,724 - INFO - Starting dN/dS calculation...
+2025-07-05 12:56:03,769 - INFO - dN/dS analysis completed successfully
+2025-07-05 12:56:03,769 - INFO - Starting splicing analysis...
+2025-07-05 12:56:03,769 - INFO - Starting splicing pattern analysis...
+2025-07-05 12:56:03,776 - INFO - Splicing pattern analysis completed successfully
+2025-07-05 12:56:03,776 - INFO - Analysis completed successfully
+2025-07-05 12:56:03,799 - INFO - Embedded R ended.
+2025-07-05 12:56:03,799 - INFO - Embedded R already ended.

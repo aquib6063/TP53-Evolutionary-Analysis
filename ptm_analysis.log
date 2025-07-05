@@ -1,0 +1,1302 @@
+2025-07-05 00:54:18,118 - INFO - Fetching sequences...
+2025-07-05 00:54:24,371 - INFO - Successfully fetched sequence for P04637
+2025-07-05 00:54:28,016 - INFO - Successfully fetched sequence for A0A287BKT5
+2025-07-05 00:54:28,029 - INFO - Analyzing PTM disruptions...
+2025-07-05 00:54:28,029 - INFO - Starting PTM analysis for CTD (positions 360-393)
+2025-07-05 00:54:28,029 - INFO - Human CTD sequence: GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 00:54:28,029 - INFO - Pig CTD sequence: KKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 00:54:28,031 - INFO - Sequence similarity score: 9.0
+2025-07-05 00:54:30,630 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 00:54:32,650 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 00:54:32,651 - INFO - Human PTM sites found: 0
+2025-07-05 00:54:32,651 - INFO - Pig PTM sites found: 0
+2025-07-05 00:54:32,657 - INFO - Saved PTM disruption analysis to /Users/apple/Documents/GitHub/TP53-Evolutionary-Analysis/results/ptm_analysis/ptm_disruptions.csv
+2025-07-05 00:54:32,657 - INFO - PTM Analysis Summary:
+2025-07-05 00:54:32,657 - INFO - Total disrupted sites: 0
+2025-07-05 01:01:21,298 - INFO - Fetching sequences...
+2025-07-05 01:01:26,355 - INFO - Successfully fetched sequence for P04637
+2025-07-05 01:01:30,368 - INFO - Successfully fetched sequence for A0A287BKT5
+2025-07-05 01:01:30,372 - INFO - 
+Testing domain 1: 360-393
+2025-07-05 01:01:30,372 - INFO - Human domain sequence: GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:01:30,372 - INFO - Pig domain sequence: KKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:01:30,373 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:01:30,373 - INFO - Analyzing PTM disruptions for domain 360-393...
+2025-07-05 01:01:30,373 - INFO - Starting PTM analysis for CTD (positions 360-393)
+2025-07-05 01:01:30,373 - INFO - Human CTD sequence: GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:01:30,373 - INFO - Pig CTD sequence: KKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:01:30,374 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:01:33,918 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:01:33,918 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:01:37,191 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:01:37,191 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:01:37,192 - INFO - Human PTM sites found: 0
+2025-07-05 01:01:37,192 - INFO - Pig PTM sites found: 0
+2025-07-05 01:01:37,199 - INFO - Saved PTM disruption analysis for domain 360-393 to results/ptm_analysis/ptm_disruptions_domain_360_393.csv
+2025-07-05 01:01:37,199 - INFO - 
+Testing domain 2: 350-400
+2025-07-05 01:01:37,199 - INFO - Human domain sequence: KDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:01:37,199 - INFO - Pig domain sequence: DVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQ
+2025-07-05 01:01:37,199 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:01:37,199 - INFO - Analyzing PTM disruptions for domain 350-400...
+2025-07-05 01:01:37,199 - INFO - Starting PTM analysis for CTD (positions 350-400)
+2025-07-05 01:01:37,200 - INFO - Human CTD sequence: KDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:01:37,200 - INFO - Pig CTD sequence: DVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQ
+2025-07-05 01:01:37,200 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:01:40,386 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:01:40,386 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:01:45,693 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:01:45,693 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:01:45,694 - INFO - Human PTM sites found: 0
+2025-07-05 01:01:45,694 - INFO - Pig PTM sites found: 0
+2025-07-05 01:01:45,698 - INFO - Saved PTM disruption analysis for domain 350-400 to results/ptm_analysis/ptm_disruptions_domain_350_400.csv
+2025-07-05 01:01:45,698 - INFO - 
+Testing domain 3: 325-393
+2025-07-05 01:01:45,698 - INFO - Human domain sequence: EYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:01:45,698 - INFO - Pig domain sequence: VLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:01:45,698 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:01:45,698 - INFO - Analyzing PTM disruptions for domain 325-393...
+2025-07-05 01:01:45,698 - INFO - Starting PTM analysis for CTD (positions 325-393)
+2025-07-05 01:01:45,698 - INFO - Human CTD sequence: EYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:01:45,698 - INFO - Pig CTD sequence: VLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:01:45,698 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:01:49,922 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:01:49,923 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:01:54,500 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:01:54,501 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:01:54,501 - INFO - Human PTM sites found: 0
+2025-07-05 01:01:54,502 - INFO - Pig PTM sites found: 0
+2025-07-05 01:01:54,506 - INFO - Saved PTM disruption analysis for domain 325-393 to results/ptm_analysis/ptm_disruptions_domain_325_393.csv
+2025-07-05 01:01:54,506 - INFO - 
+Testing domain 4: 300-450
+2025-07-05 01:01:54,506 - INFO - Human domain sequence: PGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:01:54,506 - INFO - Pig domain sequence: PLAITSSAVTGRMAMPGTGGIPGNSVLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQEDQGLTKDFSNSPLHRFKKPGSKNFQNIFPPSATLHLSNIP
+2025-07-05 01:01:54,506 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:01:54,506 - INFO - Analyzing PTM disruptions for domain 300-450...
+2025-07-05 01:01:54,506 - INFO - Starting PTM analysis for CTD (positions 300-450)
+2025-07-05 01:01:54,506 - INFO - Human CTD sequence: PGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:01:54,506 - INFO - Pig CTD sequence: PLAITSSAVTGRMAMPGTGGIPGNSVLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQEDQGLTKDFSNSPLHRFKKPGSKNFQNIFPPSATLHLSNIP
+2025-07-05 01:01:54,507 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:01:57,352 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:01:57,353 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:02:01,059 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:02:01,059 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:02:01,060 - INFO - Human PTM sites found: 0
+2025-07-05 01:02:01,060 - INFO - Pig PTM sites found: 0
+2025-07-05 01:02:01,064 - INFO - Saved PTM disruption analysis for domain 300-450 to results/ptm_analysis/ptm_disruptions_domain_300_450.csv
+2025-07-05 01:02:01,064 - INFO - 
+Testing domain 5: 330-380
+2025-07-05 01:02:01,064 - INFO - Human domain sequence: QIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRH
+2025-07-05 01:02:01,064 - INFO - Pig domain sequence: NLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMN
+2025-07-05 01:02:01,064 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:02:01,064 - INFO - Analyzing PTM disruptions for domain 330-380...
+2025-07-05 01:02:01,064 - INFO - Starting PTM analysis for CTD (positions 330-380)
+2025-07-05 01:02:01,064 - INFO - Human CTD sequence: QIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRH
+2025-07-05 01:02:01,064 - INFO - Pig CTD sequence: NLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMN
+2025-07-05 01:02:01,064 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:02:03,924 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:02:03,924 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:02:07,675 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:02:07,676 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:02:07,677 - INFO - Human PTM sites found: 0
+2025-07-05 01:02:07,677 - INFO - Pig PTM sites found: 0
+2025-07-05 01:02:07,680 - INFO - Saved PTM disruption analysis for domain 330-380 to results/ptm_analysis/ptm_disruptions_domain_330_380.csv
+2025-07-05 01:02:07,680 - INFO - 
+Testing domain 6: 340-410
+2025-07-05 01:02:07,681 - INFO - Human domain sequence: FRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:02:07,681 - INFO - Pig domain sequence: GLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQE
+2025-07-05 01:02:07,681 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:02:07,681 - INFO - Analyzing PTM disruptions for domain 340-410...
+2025-07-05 01:02:07,681 - INFO - Starting PTM analysis for CTD (positions 340-410)
+2025-07-05 01:02:07,681 - INFO - Human CTD sequence: FRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:02:07,681 - INFO - Pig CTD sequence: GLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQE
+2025-07-05 01:02:07,681 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:02:10,985 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:02:10,986 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:02:13,296 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:02:13,297 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:02:13,297 - INFO - Human PTM sites found: 0
+2025-07-05 01:02:13,297 - INFO - Pig PTM sites found: 0
+2025-07-05 01:02:13,300 - INFO - Saved PTM disruption analysis for domain 340-410 to results/ptm_analysis/ptm_disruptions_domain_340_410.csv
+2025-07-05 01:02:13,303 - INFO - Saved combined PTM disruption analysis to results/ptm_analysis/ptm_disruptions_combined.csv
+2025-07-05 01:02:13,303 - INFO - 
+PTM Analysis Summary:
+2025-07-05 01:02:13,304 - INFO - Total disrupted sites across all domains: 0
+2025-07-05 01:06:39,205 - INFO - Fetching sequences...
+2025-07-05 01:06:46,591 - INFO - Successfully fetched sequence for P04637
+2025-07-05 01:06:50,708 - INFO - Successfully fetched sequence for A0A287BKT5
+2025-07-05 01:06:50,710 - INFO - 
+Testing domain 1: 360-393
+2025-07-05 01:06:50,711 - INFO - Human domain sequence: GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:06:50,711 - INFO - Pig domain sequence: KKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:06:50,711 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:06:50,712 - INFO - Analyzing PTM disruptions for domain 360-393...
+2025-07-05 01:06:50,712 - INFO - Starting PTM analysis for domain 360-393
+2025-07-05 01:06:50,712 - INFO - Human domain sequence: GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:06:50,712 - INFO - Pig domain sequence: KKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:06:50,712 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:06:56,146 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:06:56,146 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:06:58,829 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:06:58,829 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:06:58,829 - INFO - Human PTM sites found: 0
+2025-07-05 01:06:58,829 - INFO - Pig PTM sites found: 0
+2025-07-05 01:06:58,836 - INFO - Saved PTM disruption analysis for domain 360-393 to results/ptm_analysis/ptm_disruptions_domain_360_393.csv
+2025-07-05 01:06:58,836 - INFO - 
+Testing domain 2: 350-400
+2025-07-05 01:06:58,836 - INFO - Human domain sequence: KDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:06:58,836 - INFO - Pig domain sequence: DVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQ
+2025-07-05 01:06:58,836 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:06:58,836 - INFO - Analyzing PTM disruptions for domain 350-400...
+2025-07-05 01:06:58,836 - INFO - Starting PTM analysis for domain 350-400
+2025-07-05 01:06:58,836 - INFO - Human domain sequence: KDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:06:58,836 - INFO - Pig domain sequence: DVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQ
+2025-07-05 01:06:58,836 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:07:02,107 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:07:02,107 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:07:04,533 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:07:04,533 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:07:04,534 - INFO - Human PTM sites found: 0
+2025-07-05 01:07:04,534 - INFO - Pig PTM sites found: 0
+2025-07-05 01:07:04,536 - INFO - Saved PTM disruption analysis for domain 350-400 to results/ptm_analysis/ptm_disruptions_domain_350_400.csv
+2025-07-05 01:07:04,537 - INFO - 
+Testing domain 3: 325-393
+2025-07-05 01:07:04,537 - INFO - Human domain sequence: EYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:07:04,537 - INFO - Pig domain sequence: VLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:07:04,537 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:07:04,537 - INFO - Analyzing PTM disruptions for domain 325-393...
+2025-07-05 01:07:04,537 - INFO - Starting PTM analysis for domain 325-393
+2025-07-05 01:07:04,537 - INFO - Human domain sequence: EYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:07:04,537 - INFO - Pig domain sequence: VLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:07:04,538 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:07:07,518 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:07:07,519 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:07:10,254 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:07:10,254 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:07:10,255 - INFO - Human PTM sites found: 0
+2025-07-05 01:07:10,255 - INFO - Pig PTM sites found: 0
+2025-07-05 01:07:10,257 - INFO - Saved PTM disruption analysis for domain 325-393 to results/ptm_analysis/ptm_disruptions_domain_325_393.csv
+2025-07-05 01:07:10,257 - INFO - 
+Testing domain 4: 300-450
+2025-07-05 01:07:10,257 - INFO - Human domain sequence: PGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:07:10,257 - INFO - Pig domain sequence: PLAITSSAVTGRMAMPGTGGIPGNSVLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQEDQGLTKDFSNSPLHRFKKPGSKNFQNIFPPSATLHLSNIP
+2025-07-05 01:07:10,258 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:07:10,258 - INFO - Analyzing PTM disruptions for domain 300-450...
+2025-07-05 01:07:10,258 - INFO - Starting PTM analysis for domain 300-450
+2025-07-05 01:07:10,258 - INFO - Human domain sequence: PGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:07:10,258 - INFO - Pig domain sequence: PLAITSSAVTGRMAMPGTGGIPGNSVLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQEDQGLTKDFSNSPLHRFKKPGSKNFQNIFPPSATLHLSNIP
+2025-07-05 01:07:10,258 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:07:13,866 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:07:13,866 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:07:16,621 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:07:16,621 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:07:16,621 - INFO - Human PTM sites found: 0
+2025-07-05 01:07:16,621 - INFO - Pig PTM sites found: 0
+2025-07-05 01:07:16,624 - INFO - Saved PTM disruption analysis for domain 300-450 to results/ptm_analysis/ptm_disruptions_domain_300_450.csv
+2025-07-05 01:07:16,624 - INFO - 
+Testing domain 5: 330-380
+2025-07-05 01:07:16,624 - INFO - Human domain sequence: QIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRH
+2025-07-05 01:07:16,624 - INFO - Pig domain sequence: NLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMN
+2025-07-05 01:07:16,624 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:07:16,624 - INFO - Analyzing PTM disruptions for domain 330-380...
+2025-07-05 01:07:16,624 - INFO - Starting PTM analysis for domain 330-380
+2025-07-05 01:07:16,624 - INFO - Human domain sequence: QIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRH
+2025-07-05 01:07:16,624 - INFO - Pig domain sequence: NLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMN
+2025-07-05 01:07:16,624 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:07:19,717 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:07:19,717 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:07:22,032 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:07:22,032 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:07:22,032 - INFO - Human PTM sites found: 0
+2025-07-05 01:07:22,032 - INFO - Pig PTM sites found: 0
+2025-07-05 01:07:22,034 - INFO - Saved PTM disruption analysis for domain 330-380 to results/ptm_analysis/ptm_disruptions_domain_330_380.csv
+2025-07-05 01:07:22,035 - INFO - 
+Testing domain 6: 340-410
+2025-07-05 01:07:22,035 - INFO - Human domain sequence: FRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:07:22,035 - INFO - Pig domain sequence: GLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQE
+2025-07-05 01:07:22,035 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:07:22,035 - INFO - Analyzing PTM disruptions for domain 340-410...
+2025-07-05 01:07:22,035 - INFO - Starting PTM analysis for domain 340-410
+2025-07-05 01:07:22,035 - INFO - Human domain sequence: FRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:07:22,035 - INFO - Pig domain sequence: GLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQE
+2025-07-05 01:07:22,035 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:07:25,224 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:07:25,225 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:07:28,175 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:07:28,176 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:07:28,176 - INFO - Human PTM sites found: 0
+2025-07-05 01:07:28,176 - INFO - Pig PTM sites found: 0
+2025-07-05 01:07:28,180 - INFO - Saved PTM disruption analysis for domain 340-410 to results/ptm_analysis/ptm_disruptions_domain_340_410.csv
+2025-07-05 01:07:28,182 - INFO - Saved combined PTM disruption analysis to results/ptm_analysis/ptm_disruptions_combined.csv
+2025-07-05 01:07:28,182 - INFO - 
+PTM Analysis Summary:
+2025-07-05 01:07:28,182 - INFO - Total disrupted sites across all domains: 0
+2025-07-05 01:09:00,470 - INFO - Fetching sequences...
+2025-07-05 01:09:06,507 - INFO - Successfully fetched sequence for P04637
+2025-07-05 01:09:10,105 - INFO - Successfully fetched sequence for A0A287BKT5
+2025-07-05 01:09:10,109 - INFO - 
+Testing domain 1: 360-393
+2025-07-05 01:09:10,109 - INFO - Human domain sequence: GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:09:10,109 - INFO - Pig domain sequence: KKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:09:10,111 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:09:10,111 - INFO - Analyzing PTM disruptions for domain 360-393...
+2025-07-05 01:09:10,111 - INFO - Starting PTM analysis for domain 360-393
+2025-07-05 01:09:10,111 - INFO - Human domain sequence: GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:09:10,111 - INFO - Pig domain sequence: KKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:09:10,111 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:09:14,166 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:09:14,166 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:09:17,152 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:09:17,152 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:09:17,153 - INFO - Human PTM sites found: 0
+2025-07-05 01:09:17,153 - INFO - Pig PTM sites found: 0
+2025-07-05 01:09:17,162 - INFO - Saved PTM disruption analysis for domain 360-393 to results/ptm_analysis/ptm_disruptions_domain_360_393.csv
+2025-07-05 01:09:17,162 - INFO - 
+Testing domain 2: 350-400
+2025-07-05 01:09:17,162 - INFO - Human domain sequence: KDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:09:17,162 - INFO - Pig domain sequence: DVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQ
+2025-07-05 01:09:17,163 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:09:17,163 - INFO - Analyzing PTM disruptions for domain 350-400...
+2025-07-05 01:09:17,163 - INFO - Starting PTM analysis for domain 350-400
+2025-07-05 01:09:17,163 - INFO - Human domain sequence: KDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:09:17,163 - INFO - Pig domain sequence: DVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQ
+2025-07-05 01:09:17,163 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:09:20,702 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:09:20,703 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:09:23,778 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:09:23,778 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:09:23,779 - INFO - Human PTM sites found: 0
+2025-07-05 01:09:23,779 - INFO - Pig PTM sites found: 0
+2025-07-05 01:09:23,787 - INFO - Saved PTM disruption analysis for domain 350-400 to results/ptm_analysis/ptm_disruptions_domain_350_400.csv
+2025-07-05 01:09:23,787 - INFO - 
+Testing domain 3: 325-393
+2025-07-05 01:09:23,787 - INFO - Human domain sequence: EYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:09:23,787 - INFO - Pig domain sequence: VLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:09:23,788 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:09:23,788 - INFO - Analyzing PTM disruptions for domain 325-393...
+2025-07-05 01:09:23,788 - INFO - Starting PTM analysis for domain 325-393
+2025-07-05 01:09:23,788 - INFO - Human domain sequence: EYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:09:23,788 - INFO - Pig domain sequence: VLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:09:23,788 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:09:26,902 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:09:26,903 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:09:30,041 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:09:30,042 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:09:30,042 - INFO - Human PTM sites found: 0
+2025-07-05 01:09:30,043 - INFO - Pig PTM sites found: 0
+2025-07-05 01:09:30,045 - INFO - Saved PTM disruption analysis for domain 325-393 to results/ptm_analysis/ptm_disruptions_domain_325_393.csv
+2025-07-05 01:09:30,046 - INFO - 
+Testing domain 4: 300-450
+2025-07-05 01:09:30,046 - INFO - Human domain sequence: PGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:09:30,046 - INFO - Pig domain sequence: PLAITSSAVTGRMAMPGTGGIPGNSVLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQEDQGLTKDFSNSPLHRFKKPGSKNFQNIFPPSATLHLSNIP
+2025-07-05 01:09:30,046 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:09:30,046 - INFO - Analyzing PTM disruptions for domain 300-450...
+2025-07-05 01:09:30,046 - INFO - Starting PTM analysis for domain 300-450
+2025-07-05 01:09:30,046 - INFO - Human domain sequence: PGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:09:30,046 - INFO - Pig domain sequence: PLAITSSAVTGRMAMPGTGGIPGNSVLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQEDQGLTKDFSNSPLHRFKKPGSKNFQNIFPPSATLHLSNIP
+2025-07-05 01:09:30,046 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:09:33,792 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:09:33,793 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:09:36,611 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:09:36,612 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:09:36,612 - INFO - Human PTM sites found: 0
+2025-07-05 01:09:36,612 - INFO - Pig PTM sites found: 0
+2025-07-05 01:09:36,620 - INFO - Saved PTM disruption analysis for domain 300-450 to results/ptm_analysis/ptm_disruptions_domain_300_450.csv
+2025-07-05 01:09:36,620 - INFO - 
+Testing domain 5: 330-380
+2025-07-05 01:09:36,620 - INFO - Human domain sequence: QIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRH
+2025-07-05 01:09:36,620 - INFO - Pig domain sequence: NLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMN
+2025-07-05 01:09:36,620 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:09:36,620 - INFO - Analyzing PTM disruptions for domain 330-380...
+2025-07-05 01:09:36,620 - INFO - Starting PTM analysis for domain 330-380
+2025-07-05 01:09:36,621 - INFO - Human domain sequence: QIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRH
+2025-07-05 01:09:36,621 - INFO - Pig domain sequence: NLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMN
+2025-07-05 01:09:36,621 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:09:39,629 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:09:39,630 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:09:42,845 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:09:42,845 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:09:42,846 - INFO - Human PTM sites found: 0
+2025-07-05 01:09:42,846 - INFO - Pig PTM sites found: 0
+2025-07-05 01:09:42,858 - INFO - Saved PTM disruption analysis for domain 330-380 to results/ptm_analysis/ptm_disruptions_domain_330_380.csv
+2025-07-05 01:09:42,858 - INFO - 
+Testing domain 6: 340-410
+2025-07-05 01:09:42,858 - INFO - Human domain sequence: FRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:09:42,858 - INFO - Pig domain sequence: GLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQE
+2025-07-05 01:09:42,858 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:09:42,858 - INFO - Analyzing PTM disruptions for domain 340-410...
+2025-07-05 01:09:42,858 - INFO - Starting PTM analysis for domain 340-410
+2025-07-05 01:09:42,858 - INFO - Human domain sequence: FRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:09:42,858 - INFO - Pig domain sequence: GLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQE
+2025-07-05 01:09:42,858 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:09:46,494 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:09:46,494 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:09:48,534 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:09:48,535 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:09:48,535 - INFO - Human PTM sites found: 0
+2025-07-05 01:09:48,535 - INFO - Pig PTM sites found: 0
+2025-07-05 01:09:48,537 - INFO - Saved PTM disruption analysis for domain 340-410 to results/ptm_analysis/ptm_disruptions_domain_340_410.csv
+2025-07-05 01:09:48,541 - INFO - Saved combined PTM disruption analysis to results/ptm_analysis/ptm_disruptions_combined.csv
+2025-07-05 01:09:48,541 - INFO - 
+PTM Analysis Summary:
+2025-07-05 01:09:48,541 - INFO - Total disrupted sites across all domains: 0
+2025-07-05 01:11:44,473 - INFO - Fetching sequences...
+2025-07-05 01:11:49,392 - INFO - Successfully fetched sequence for P04637
+2025-07-05 01:11:54,040 - INFO - Successfully fetched sequence for A0A287BKT5
+2025-07-05 01:11:54,044 - INFO - 
+Testing domain 1: 360-393
+2025-07-05 01:11:54,044 - INFO - Human domain sequence: GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:11:54,044 - INFO - Pig domain sequence: KKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:11:54,045 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:11:54,045 - INFO - Analyzing PTM disruptions for domain 360-393...
+2025-07-05 01:11:54,045 - INFO - Starting PTM analysis for domain 360-393
+2025-07-05 01:11:54,045 - INFO - Human domain sequence: GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:11:54,045 - INFO - Pig domain sequence: KKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:11:54,045 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:11:59,236 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:11:59,237 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:12:02,485 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:12:02,485 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:12:02,486 - INFO - Human PTM sites found: 0
+2025-07-05 01:12:02,486 - INFO - Pig PTM sites found: 0
+2025-07-05 01:12:02,501 - INFO - Saved PTM disruption analysis for domain 360-393 to results/ptm_analysis/ptm_disruptions_domain_360_393.csv
+2025-07-05 01:12:02,501 - INFO - 
+Testing domain 2: 350-400
+2025-07-05 01:12:02,501 - INFO - Human domain sequence: KDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:12:02,501 - INFO - Pig domain sequence: DVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQ
+2025-07-05 01:12:02,501 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:12:02,501 - INFO - Analyzing PTM disruptions for domain 350-400...
+2025-07-05 01:12:02,501 - INFO - Starting PTM analysis for domain 350-400
+2025-07-05 01:12:02,501 - INFO - Human domain sequence: KDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:12:02,501 - INFO - Pig domain sequence: DVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQ
+2025-07-05 01:12:02,501 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:12:06,359 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:12:06,359 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:12:08,997 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:12:08,998 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:12:08,999 - INFO - Human PTM sites found: 0
+2025-07-05 01:12:08,999 - INFO - Pig PTM sites found: 0
+2025-07-05 01:12:09,006 - INFO - Saved PTM disruption analysis for domain 350-400 to results/ptm_analysis/ptm_disruptions_domain_350_400.csv
+2025-07-05 01:12:09,006 - INFO - 
+Testing domain 3: 325-393
+2025-07-05 01:12:09,006 - INFO - Human domain sequence: EYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:12:09,006 - INFO - Pig domain sequence: VLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:12:09,006 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:12:09,006 - INFO - Analyzing PTM disruptions for domain 325-393...
+2025-07-05 01:12:09,006 - INFO - Starting PTM analysis for domain 325-393
+2025-07-05 01:12:09,006 - INFO - Human domain sequence: EYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:12:09,006 - INFO - Pig domain sequence: VLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:12:09,006 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:12:11,710 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:12:11,710 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:12:14,263 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:12:14,263 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:12:14,264 - INFO - Human PTM sites found: 0
+2025-07-05 01:12:14,264 - INFO - Pig PTM sites found: 0
+2025-07-05 01:12:14,268 - INFO - Saved PTM disruption analysis for domain 325-393 to results/ptm_analysis/ptm_disruptions_domain_325_393.csv
+2025-07-05 01:12:14,268 - INFO - 
+Testing domain 4: 300-450
+2025-07-05 01:12:14,268 - INFO - Human domain sequence: PGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:12:14,268 - INFO - Pig domain sequence: PLAITSSAVTGRMAMPGTGGIPGNSVLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQEDQGLTKDFSNSPLHRFKKPGSKNFQNIFPPSATLHLSNIP
+2025-07-05 01:12:14,269 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:12:14,269 - INFO - Analyzing PTM disruptions for domain 300-450...
+2025-07-05 01:12:14,269 - INFO - Starting PTM analysis for domain 300-450
+2025-07-05 01:12:14,269 - INFO - Human domain sequence: PGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:12:14,269 - INFO - Pig domain sequence: PLAITSSAVTGRMAMPGTGGIPGNSVLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQEDQGLTKDFSNSPLHRFKKPGSKNFQNIFPPSATLHLSNIP
+2025-07-05 01:12:14,269 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:12:18,265 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:12:18,266 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:12:21,058 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:12:21,058 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:12:21,059 - INFO - Human PTM sites found: 0
+2025-07-05 01:12:21,059 - INFO - Pig PTM sites found: 0
+2025-07-05 01:12:21,063 - INFO - Saved PTM disruption analysis for domain 300-450 to results/ptm_analysis/ptm_disruptions_domain_300_450.csv
+2025-07-05 01:12:21,063 - INFO - 
+Testing domain 5: 330-380
+2025-07-05 01:12:21,063 - INFO - Human domain sequence: QIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRH
+2025-07-05 01:12:21,064 - INFO - Pig domain sequence: NLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMN
+2025-07-05 01:12:21,064 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:12:21,064 - INFO - Analyzing PTM disruptions for domain 330-380...
+2025-07-05 01:12:21,064 - INFO - Starting PTM analysis for domain 330-380
+2025-07-05 01:12:21,064 - INFO - Human domain sequence: QIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRH
+2025-07-05 01:12:21,064 - INFO - Pig domain sequence: NLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMN
+2025-07-05 01:12:21,064 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:12:24,509 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:12:24,509 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:12:28,027 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:12:28,028 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:12:28,028 - INFO - Human PTM sites found: 0
+2025-07-05 01:12:28,028 - INFO - Pig PTM sites found: 0
+2025-07-05 01:12:28,031 - INFO - Saved PTM disruption analysis for domain 330-380 to results/ptm_analysis/ptm_disruptions_domain_330_380.csv
+2025-07-05 01:12:28,031 - INFO - 
+Testing domain 6: 340-410
+2025-07-05 01:12:28,031 - INFO - Human domain sequence: FRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:12:28,031 - INFO - Pig domain sequence: GLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQE
+2025-07-05 01:12:28,032 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:12:28,032 - INFO - Analyzing PTM disruptions for domain 340-410...
+2025-07-05 01:12:28,032 - INFO - Starting PTM analysis for domain 340-410
+2025-07-05 01:12:28,032 - INFO - Human domain sequence: FRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:12:28,032 - INFO - Pig domain sequence: GLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQE
+2025-07-05 01:12:28,032 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:12:31,390 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:12:31,391 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:12:34,262 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:12:34,263 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:12:34,264 - INFO - Human PTM sites found: 0
+2025-07-05 01:12:34,264 - INFO - Pig PTM sites found: 0
+2025-07-05 01:12:34,267 - INFO - Saved PTM disruption analysis for domain 340-410 to results/ptm_analysis/ptm_disruptions_domain_340_410.csv
+2025-07-05 01:12:34,270 - INFO - Saved combined PTM disruption analysis to results/ptm_analysis/ptm_disruptions_combined.csv
+2025-07-05 01:12:34,270 - INFO - 
+PTM Analysis Summary:
+2025-07-05 01:12:34,271 - INFO - Total disrupted sites across all domains: 0
+2025-07-05 01:13:30,121 - INFO - Fetching sequences...
+2025-07-05 01:13:36,508 - INFO - Successfully fetched sequence for P04637
+2025-07-05 01:13:40,344 - INFO - Successfully fetched sequence for A0A287BKT5
+2025-07-05 01:13:40,346 - INFO - 
+Testing domain 1: 360-393
+2025-07-05 01:13:40,346 - INFO - Human domain sequence: GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:13:40,346 - INFO - Pig domain sequence: KKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:13:40,347 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:13:40,347 - INFO - Predicting PTM sites for domain 360-393...
+2025-07-05 01:13:43,734 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:13:43,734 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:13:46,514 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:13:46,514 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:13:46,515 - INFO - Human PTM sites found: 0
+2025-07-05 01:13:46,515 - INFO - Pig PTM sites found: 0
+2025-07-05 01:13:46,515 - INFO - Analyzing PTM disruptions for domain 360-393...
+2025-07-05 01:13:46,515 - INFO - Starting PTM analysis for domain 360-393
+2025-07-05 01:13:46,515 - INFO - Human domain sequence: 
+2025-07-05 01:13:46,515 - INFO - Pig domain sequence: 
+2025-07-05 01:13:46,515 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:13:46,524 - INFO - Saved PTM disruption analysis for domain 360-393 to results/ptm_analysis/ptm_disruptions_domain_360_393.csv
+2025-07-05 01:13:46,524 - INFO - 
+Testing domain 2: 350-400
+2025-07-05 01:13:46,525 - INFO - Human domain sequence: KDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:13:46,525 - INFO - Pig domain sequence: DVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQ
+2025-07-05 01:13:46,525 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:13:46,525 - INFO - Predicting PTM sites for domain 350-400...
+2025-07-05 01:13:49,415 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:13:49,416 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:13:51,452 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:13:51,453 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:13:51,453 - INFO - Human PTM sites found: 0
+2025-07-05 01:13:51,453 - INFO - Pig PTM sites found: 0
+2025-07-05 01:13:51,453 - INFO - Analyzing PTM disruptions for domain 350-400...
+2025-07-05 01:13:51,453 - INFO - Starting PTM analysis for domain 350-400
+2025-07-05 01:13:51,453 - INFO - Human domain sequence: 
+2025-07-05 01:13:51,454 - INFO - Pig domain sequence: 
+2025-07-05 01:13:51,454 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:13:51,460 - INFO - Saved PTM disruption analysis for domain 350-400 to results/ptm_analysis/ptm_disruptions_domain_350_400.csv
+2025-07-05 01:13:51,460 - INFO - 
+Testing domain 3: 325-393
+2025-07-05 01:13:51,461 - INFO - Human domain sequence: EYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:13:51,461 - INFO - Pig domain sequence: VLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:13:51,461 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:13:51,461 - INFO - Predicting PTM sites for domain 325-393...
+2025-07-05 01:13:54,464 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:13:54,465 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:13:57,336 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:13:57,336 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:13:57,336 - INFO - Human PTM sites found: 0
+2025-07-05 01:13:57,337 - INFO - Pig PTM sites found: 0
+2025-07-05 01:13:57,337 - INFO - Analyzing PTM disruptions for domain 325-393...
+2025-07-05 01:13:57,337 - INFO - Starting PTM analysis for domain 325-393
+2025-07-05 01:13:57,337 - INFO - Human domain sequence: 
+2025-07-05 01:13:57,337 - INFO - Pig domain sequence: 
+2025-07-05 01:13:57,337 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:13:57,339 - INFO - Saved PTM disruption analysis for domain 325-393 to results/ptm_analysis/ptm_disruptions_domain_325_393.csv
+2025-07-05 01:13:57,339 - INFO - 
+Testing domain 4: 300-450
+2025-07-05 01:13:57,339 - INFO - Human domain sequence: PGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:13:57,339 - INFO - Pig domain sequence: PLAITSSAVTGRMAMPGTGGIPGNSVLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQEDQGLTKDFSNSPLHRFKKPGSKNFQNIFPPSATLHLSNIP
+2025-07-05 01:13:57,339 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:13:57,339 - INFO - Predicting PTM sites for domain 300-450...
+2025-07-05 01:14:00,193 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:14:00,193 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:14:02,331 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:14:02,331 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:14:02,332 - INFO - Human PTM sites found: 0
+2025-07-05 01:14:02,332 - INFO - Pig PTM sites found: 0
+2025-07-05 01:14:02,332 - INFO - Analyzing PTM disruptions for domain 300-450...
+2025-07-05 01:14:02,332 - INFO - Starting PTM analysis for domain 300-450
+2025-07-05 01:14:02,332 - INFO - Human domain sequence: 
+2025-07-05 01:14:02,332 - INFO - Pig domain sequence: 
+2025-07-05 01:14:02,332 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:14:02,339 - INFO - Saved PTM disruption analysis for domain 300-450 to results/ptm_analysis/ptm_disruptions_domain_300_450.csv
+2025-07-05 01:14:02,339 - INFO - 
+Testing domain 5: 330-380
+2025-07-05 01:14:02,339 - INFO - Human domain sequence: QIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRH
+2025-07-05 01:14:02,339 - INFO - Pig domain sequence: NLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMN
+2025-07-05 01:14:02,339 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:14:02,339 - INFO - Predicting PTM sites for domain 330-380...
+2025-07-05 01:14:05,309 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:14:05,309 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:14:07,834 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:14:07,834 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:14:07,835 - INFO - Human PTM sites found: 0
+2025-07-05 01:14:07,835 - INFO - Pig PTM sites found: 0
+2025-07-05 01:14:07,835 - INFO - Analyzing PTM disruptions for domain 330-380...
+2025-07-05 01:14:07,835 - INFO - Starting PTM analysis for domain 330-380
+2025-07-05 01:14:07,835 - INFO - Human domain sequence: 
+2025-07-05 01:14:07,835 - INFO - Pig domain sequence: 
+2025-07-05 01:14:07,835 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:14:07,837 - INFO - Saved PTM disruption analysis for domain 330-380 to results/ptm_analysis/ptm_disruptions_domain_330_380.csv
+2025-07-05 01:14:07,837 - INFO - 
+Testing domain 6: 340-410
+2025-07-05 01:14:07,837 - INFO - Human domain sequence: FRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:14:07,837 - INFO - Pig domain sequence: GLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQE
+2025-07-05 01:14:07,837 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:14:07,837 - INFO - Predicting PTM sites for domain 340-410...
+2025-07-05 01:14:10,934 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:14:10,934 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:14:13,455 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:14:13,456 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:14:13,456 - INFO - Human PTM sites found: 0
+2025-07-05 01:14:13,456 - INFO - Pig PTM sites found: 0
+2025-07-05 01:14:13,457 - INFO - Analyzing PTM disruptions for domain 340-410...
+2025-07-05 01:14:13,457 - INFO - Starting PTM analysis for domain 340-410
+2025-07-05 01:14:13,457 - INFO - Human domain sequence: 
+2025-07-05 01:14:13,457 - INFO - Pig domain sequence: 
+2025-07-05 01:14:13,457 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:14:13,474 - INFO - Saved PTM disruption analysis for domain 340-410 to results/ptm_analysis/ptm_disruptions_domain_340_410.csv
+2025-07-05 01:14:13,476 - INFO - Saved combined PTM disruption analysis to results/ptm_analysis/ptm_disruptions_combined.csv
+2025-07-05 01:14:13,476 - INFO - 
+PTM Analysis Summary:
+2025-07-05 01:14:13,476 - INFO - Total disrupted sites across all domains: 0
+2025-07-05 01:15:43,887 - INFO - Fetching sequences...
+2025-07-05 01:15:48,767 - INFO - Successfully fetched sequence for P04637
+2025-07-05 01:15:51,839 - INFO - Successfully fetched sequence for A0A287BKT5
+2025-07-05 01:15:51,842 - INFO - 
+Testing domain 1: 360-393
+2025-07-05 01:15:51,843 - INFO - Human domain sequence: GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:15:51,843 - INFO - Pig domain sequence: KKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:15:51,843 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:15:51,843 - INFO - Predicting PTM sites for domain 360-393...
+2025-07-05 01:15:55,315 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:15:55,316 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:15:57,937 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:15:57,937 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:15:57,938 - INFO - Human PTM sites found: 0
+2025-07-05 01:15:57,938 - INFO - Pig PTM sites found: 0
+2025-07-05 01:15:57,938 - INFO - Analyzing PTM disruptions for domain 360-393...
+2025-07-05 01:15:57,938 - INFO - Starting PTM analysis for domain 360-393
+2025-07-05 01:15:57,938 - INFO - Human domain sequence: 
+2025-07-05 01:15:57,938 - INFO - Pig domain sequence: 
+2025-07-05 01:15:57,938 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:15:57,946 - INFO - Saved PTM disruption analysis for domain 360-393 to results/ptm_analysis/ptm_disruptions_domain_360_393.csv
+2025-07-05 01:15:57,946 - INFO - 
+Testing domain 2: 350-400
+2025-07-05 01:15:57,946 - INFO - Human domain sequence: KDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:15:57,946 - INFO - Pig domain sequence: DVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQ
+2025-07-05 01:15:57,946 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:15:57,946 - INFO - Predicting PTM sites for domain 350-400...
+2025-07-05 01:16:00,891 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:16:00,891 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:16:03,033 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:16:03,033 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:16:03,034 - INFO - Human PTM sites found: 0
+2025-07-05 01:16:03,034 - INFO - Pig PTM sites found: 0
+2025-07-05 01:16:03,034 - INFO - Analyzing PTM disruptions for domain 350-400...
+2025-07-05 01:16:03,034 - INFO - Starting PTM analysis for domain 350-400
+2025-07-05 01:16:03,034 - INFO - Human domain sequence: 
+2025-07-05 01:16:03,034 - INFO - Pig domain sequence: 
+2025-07-05 01:16:03,034 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:16:03,036 - INFO - Saved PTM disruption analysis for domain 350-400 to results/ptm_analysis/ptm_disruptions_domain_350_400.csv
+2025-07-05 01:16:03,036 - INFO - 
+Testing domain 3: 325-393
+2025-07-05 01:16:03,036 - INFO - Human domain sequence: EYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:16:03,036 - INFO - Pig domain sequence: VLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:16:03,036 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:16:03,036 - INFO - Predicting PTM sites for domain 325-393...
+2025-07-05 01:16:06,301 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:16:06,302 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:16:08,583 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:16:08,584 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:16:08,584 - INFO - Human PTM sites found: 0
+2025-07-05 01:16:08,584 - INFO - Pig PTM sites found: 0
+2025-07-05 01:16:08,584 - INFO - Analyzing PTM disruptions for domain 325-393...
+2025-07-05 01:16:08,585 - INFO - Starting PTM analysis for domain 325-393
+2025-07-05 01:16:08,585 - INFO - Human domain sequence: 
+2025-07-05 01:16:08,585 - INFO - Pig domain sequence: 
+2025-07-05 01:16:08,585 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:16:08,587 - INFO - Saved PTM disruption analysis for domain 325-393 to results/ptm_analysis/ptm_disruptions_domain_325_393.csv
+2025-07-05 01:16:08,588 - INFO - 
+Testing domain 4: 300-450
+2025-07-05 01:16:08,588 - INFO - Human domain sequence: PGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:16:08,588 - INFO - Pig domain sequence: PLAITSSAVTGRMAMPGTGGIPGNSVLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQEDQGLTKDFSNSPLHRFKKPGSKNFQNIFPPSATLHLSNIP
+2025-07-05 01:16:08,588 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:16:08,588 - INFO - Predicting PTM sites for domain 300-450...
+2025-07-05 01:16:11,362 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:16:11,363 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:16:14,336 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:16:14,336 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:16:14,337 - INFO - Human PTM sites found: 0
+2025-07-05 01:16:14,337 - INFO - Pig PTM sites found: 0
+2025-07-05 01:16:14,337 - INFO - Analyzing PTM disruptions for domain 300-450...
+2025-07-05 01:16:14,337 - INFO - Starting PTM analysis for domain 300-450
+2025-07-05 01:16:14,337 - INFO - Human domain sequence: 
+2025-07-05 01:16:14,337 - INFO - Pig domain sequence: 
+2025-07-05 01:16:14,337 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:16:14,341 - INFO - Saved PTM disruption analysis for domain 300-450 to results/ptm_analysis/ptm_disruptions_domain_300_450.csv
+2025-07-05 01:16:14,341 - INFO - 
+Testing domain 5: 330-380
+2025-07-05 01:16:14,341 - INFO - Human domain sequence: QIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRH
+2025-07-05 01:16:14,341 - INFO - Pig domain sequence: NLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMN
+2025-07-05 01:16:14,341 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:16:14,341 - INFO - Predicting PTM sites for domain 330-380...
+2025-07-05 01:16:17,154 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:16:17,155 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:16:19,253 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:16:19,254 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:16:19,254 - INFO - Human PTM sites found: 0
+2025-07-05 01:16:19,254 - INFO - Pig PTM sites found: 0
+2025-07-05 01:16:19,254 - INFO - Analyzing PTM disruptions for domain 330-380...
+2025-07-05 01:16:19,254 - INFO - Starting PTM analysis for domain 330-380
+2025-07-05 01:16:19,254 - INFO - Human domain sequence: 
+2025-07-05 01:16:19,254 - INFO - Pig domain sequence: 
+2025-07-05 01:16:19,255 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:16:19,258 - INFO - Saved PTM disruption analysis for domain 330-380 to results/ptm_analysis/ptm_disruptions_domain_330_380.csv
+2025-07-05 01:16:19,258 - INFO - 
+Testing domain 6: 340-410
+2025-07-05 01:16:19,258 - INFO - Human domain sequence: FRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:16:19,258 - INFO - Pig domain sequence: GLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQE
+2025-07-05 01:16:19,258 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:16:19,258 - INFO - Predicting PTM sites for domain 340-410...
+2025-07-05 01:16:22,598 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:16:22,598 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:16:24,801 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:16:24,802 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:16:24,803 - INFO - Human PTM sites found: 0
+2025-07-05 01:16:24,803 - INFO - Pig PTM sites found: 0
+2025-07-05 01:16:24,803 - INFO - Analyzing PTM disruptions for domain 340-410...
+2025-07-05 01:16:24,803 - INFO - Starting PTM analysis for domain 340-410
+2025-07-05 01:16:24,803 - INFO - Human domain sequence: 
+2025-07-05 01:16:24,803 - INFO - Pig domain sequence: 
+2025-07-05 01:16:24,803 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:16:24,807 - INFO - Saved PTM disruption analysis for domain 340-410 to results/ptm_analysis/ptm_disruptions_domain_340_410.csv
+2025-07-05 01:16:24,809 - INFO - Saved combined PTM disruption analysis to results/ptm_analysis/ptm_disruptions_combined.csv
+2025-07-05 01:16:24,809 - INFO - 
+PTM Analysis Summary:
+2025-07-05 01:16:24,809 - INFO - Total disrupted sites across all domains: 0
+2025-07-05 01:23:48,278 - INFO - Fetching sequences...
+2025-07-05 01:23:53,922 - INFO - Successfully fetched sequence for P04637
+2025-07-05 01:23:56,859 - INFO - Successfully fetched sequence for A0A287BKT5
+2025-07-05 01:23:56,863 - INFO - 
+Testing domain 1: 360-393
+2025-07-05 01:23:56,863 - INFO - Human domain sequence: GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:23:56,863 - INFO - Pig domain sequence: KKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:23:56,864 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:23:56,864 - INFO - Predicting PTM sites for domain 360-393...
+2025-07-05 01:24:00,223 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:24:00,224 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:24:02,736 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:24:02,737 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:24:02,737 - INFO - Human PTM sites found: 0
+2025-07-05 01:24:02,737 - INFO - Pig PTM sites found: 0
+2025-07-05 01:24:02,738 - INFO - Analyzing PTM disruptions for domain 360-393...
+2025-07-05 01:24:02,738 - INFO - Starting PTM analysis for domain 360-393
+2025-07-05 01:24:02,738 - INFO - Human domain sequence: 
+2025-07-05 01:24:02,738 - INFO - Pig domain sequence: 
+2025-07-05 01:24:02,738 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:24:02,744 - INFO - Saved PTM disruption analysis for domain 360-393 to results/ptm_analysis/ptm_disruptions_domain_360_393.csv
+2025-07-05 01:24:02,744 - INFO - 
+Testing domain 2: 350-400
+2025-07-05 01:24:02,744 - INFO - Human domain sequence: KDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:24:02,744 - INFO - Pig domain sequence: DVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQ
+2025-07-05 01:24:02,744 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:24:02,744 - INFO - Predicting PTM sites for domain 350-400...
+2025-07-05 01:24:05,982 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:24:05,982 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:24:08,692 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:24:08,692 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:24:08,693 - INFO - Human PTM sites found: 0
+2025-07-05 01:24:08,693 - INFO - Pig PTM sites found: 0
+2025-07-05 01:24:08,693 - INFO - Analyzing PTM disruptions for domain 350-400...
+2025-07-05 01:24:08,693 - INFO - Starting PTM analysis for domain 350-400
+2025-07-05 01:24:08,693 - INFO - Human domain sequence: 
+2025-07-05 01:24:08,693 - INFO - Pig domain sequence: 
+2025-07-05 01:24:08,693 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:24:08,697 - INFO - Saved PTM disruption analysis for domain 350-400 to results/ptm_analysis/ptm_disruptions_domain_350_400.csv
+2025-07-05 01:24:08,697 - INFO - 
+Testing domain 3: 325-393
+2025-07-05 01:24:08,697 - INFO - Human domain sequence: EYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:24:08,697 - INFO - Pig domain sequence: VLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:24:08,698 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:24:08,698 - INFO - Predicting PTM sites for domain 325-393...
+2025-07-05 01:24:11,233 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:24:11,233 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:24:15,215 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:24:15,216 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:24:15,216 - INFO - Human PTM sites found: 0
+2025-07-05 01:24:15,216 - INFO - Pig PTM sites found: 0
+2025-07-05 01:24:15,216 - INFO - Analyzing PTM disruptions for domain 325-393...
+2025-07-05 01:24:15,216 - INFO - Starting PTM analysis for domain 325-393
+2025-07-05 01:24:15,216 - INFO - Human domain sequence: 
+2025-07-05 01:24:15,216 - INFO - Pig domain sequence: 
+2025-07-05 01:24:15,216 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:24:15,218 - INFO - Saved PTM disruption analysis for domain 325-393 to results/ptm_analysis/ptm_disruptions_domain_325_393.csv
+2025-07-05 01:24:15,218 - INFO - 
+Testing domain 4: 300-450
+2025-07-05 01:24:15,218 - INFO - Human domain sequence: PGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:24:15,219 - INFO - Pig domain sequence: PLAITSSAVTGRMAMPGTGGIPGNSVLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQEDQGLTKDFSNSPLHRFKKPGSKNFQNIFPPSATLHLSNIP
+2025-07-05 01:24:15,219 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:24:15,219 - INFO - Predicting PTM sites for domain 300-450...
+2025-07-05 01:24:18,650 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:24:18,650 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:24:20,788 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:24:20,789 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:24:20,789 - INFO - Human PTM sites found: 0
+2025-07-05 01:24:20,790 - INFO - Pig PTM sites found: 0
+2025-07-05 01:24:20,790 - INFO - Analyzing PTM disruptions for domain 300-450...
+2025-07-05 01:24:20,790 - INFO - Starting PTM analysis for domain 300-450
+2025-07-05 01:24:20,790 - INFO - Human domain sequence: 
+2025-07-05 01:24:20,790 - INFO - Pig domain sequence: 
+2025-07-05 01:24:20,790 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:24:20,792 - INFO - Saved PTM disruption analysis for domain 300-450 to results/ptm_analysis/ptm_disruptions_domain_300_450.csv
+2025-07-05 01:24:20,792 - INFO - 
+Testing domain 5: 330-380
+2025-07-05 01:24:20,792 - INFO - Human domain sequence: QIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRH
+2025-07-05 01:24:20,792 - INFO - Pig domain sequence: NLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMN
+2025-07-05 01:24:20,792 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:24:20,792 - INFO - Predicting PTM sites for domain 330-380...
+2025-07-05 01:24:23,669 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:24:23,670 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:24:25,754 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:24:25,754 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:24:25,754 - INFO - Human PTM sites found: 0
+2025-07-05 01:24:25,754 - INFO - Pig PTM sites found: 0
+2025-07-05 01:24:25,755 - INFO - Analyzing PTM disruptions for domain 330-380...
+2025-07-05 01:24:25,755 - INFO - Starting PTM analysis for domain 330-380
+2025-07-05 01:24:25,755 - INFO - Human domain sequence: 
+2025-07-05 01:24:25,755 - INFO - Pig domain sequence: 
+2025-07-05 01:24:25,755 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:24:25,757 - INFO - Saved PTM disruption analysis for domain 330-380 to results/ptm_analysis/ptm_disruptions_domain_330_380.csv
+2025-07-05 01:24:25,758 - INFO - 
+Testing domain 6: 340-410
+2025-07-05 01:24:25,758 - INFO - Human domain sequence: FRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:24:25,758 - INFO - Pig domain sequence: GLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQE
+2025-07-05 01:24:25,758 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:24:25,758 - INFO - Predicting PTM sites for domain 340-410...
+2025-07-05 01:24:28,381 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:24:28,381 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:24:30,464 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:24:30,464 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:24:30,464 - INFO - Human PTM sites found: 0
+2025-07-05 01:24:30,465 - INFO - Pig PTM sites found: 0
+2025-07-05 01:24:30,465 - INFO - Analyzing PTM disruptions for domain 340-410...
+2025-07-05 01:24:30,465 - INFO - Starting PTM analysis for domain 340-410
+2025-07-05 01:24:30,465 - INFO - Human domain sequence: 
+2025-07-05 01:24:30,465 - INFO - Pig domain sequence: 
+2025-07-05 01:24:30,465 - ERROR - Error analyzing PTM disruptions: sequence has zero length
+2025-07-05 01:24:30,468 - INFO - Saved PTM disruption analysis for domain 340-410 to results/ptm_analysis/ptm_disruptions_domain_340_410.csv
+2025-07-05 01:24:30,470 - INFO - Saved combined PTM disruption analysis to results/ptm_analysis/ptm_disruptions_combined.csv
+2025-07-05 01:24:30,470 - INFO - 
+PTM Analysis Summary:
+2025-07-05 01:24:30,470 - INFO - Total disrupted sites across all domains: 0
+2025-07-05 01:27:59,229 - INFO - Fetching sequences...
+2025-07-05 01:28:03,803 - INFO - Successfully fetched sequence for P04637
+2025-07-05 01:28:06,819 - INFO - Successfully fetched sequence for A0A287BKT5
+2025-07-05 01:28:06,823 - INFO - 
+Testing domain 1: 360-393
+2025-07-05 01:28:06,823 - INFO - Human domain sequence: GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:28:06,823 - INFO - Pig domain sequence: KKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:28:06,825 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:28:06,825 - INFO - Predicting PTM sites for domain 360-393...
+2025-07-05 01:28:09,971 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:28:09,972 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:28:12,645 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:28:12,646 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:28:12,646 - INFO - Human PTM sites found: 0
+2025-07-05 01:28:12,646 - INFO - Pig PTM sites found: 0
+2025-07-05 01:28:12,646 - INFO - Analyzing PTM disruptions for domain 360-393...
+2025-07-05 01:28:12,646 - INFO - Starting PTM analysis for domain 360-393
+2025-07-05 01:28:12,647 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:28:12,647 - ERROR - Error analyzing PTM disruptions: name 'PTM_RESIDUES' is not defined
+2025-07-05 01:28:12,655 - INFO - Saved PTM disruption analysis for domain 360-393 to results/ptm_analysis/ptm_disruptions_domain_360_393.csv
+2025-07-05 01:28:12,655 - INFO - 
+Testing domain 2: 350-400
+2025-07-05 01:28:12,655 - INFO - Human domain sequence: KDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:28:12,655 - INFO - Pig domain sequence: DVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQ
+2025-07-05 01:28:12,655 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:28:12,655 - INFO - Predicting PTM sites for domain 350-400...
+2025-07-05 01:28:15,272 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:28:15,273 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:28:17,605 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:28:17,606 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:28:17,607 - INFO - Human PTM sites found: 0
+2025-07-05 01:28:17,607 - INFO - Pig PTM sites found: 0
+2025-07-05 01:28:17,607 - INFO - Analyzing PTM disruptions for domain 350-400...
+2025-07-05 01:28:17,607 - INFO - Starting PTM analysis for domain 350-400
+2025-07-05 01:28:17,607 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:28:17,607 - ERROR - Error analyzing PTM disruptions: name 'PTM_RESIDUES' is not defined
+2025-07-05 01:28:17,609 - INFO - Saved PTM disruption analysis for domain 350-400 to results/ptm_analysis/ptm_disruptions_domain_350_400.csv
+2025-07-05 01:28:17,610 - INFO - 
+Testing domain 3: 325-393
+2025-07-05 01:28:17,610 - INFO - Human domain sequence: EYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:28:17,610 - INFO - Pig domain sequence: VLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:28:17,610 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:28:17,610 - INFO - Predicting PTM sites for domain 325-393...
+2025-07-05 01:28:20,373 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:28:20,374 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:28:22,464 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:28:22,465 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:28:22,465 - INFO - Human PTM sites found: 0
+2025-07-05 01:28:22,466 - INFO - Pig PTM sites found: 0
+2025-07-05 01:28:22,466 - INFO - Analyzing PTM disruptions for domain 325-393...
+2025-07-05 01:28:22,466 - INFO - Starting PTM analysis for domain 325-393
+2025-07-05 01:28:22,466 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:28:22,466 - ERROR - Error analyzing PTM disruptions: name 'PTM_RESIDUES' is not defined
+2025-07-05 01:28:22,468 - INFO - Saved PTM disruption analysis for domain 325-393 to results/ptm_analysis/ptm_disruptions_domain_325_393.csv
+2025-07-05 01:28:22,468 - INFO - 
+Testing domain 4: 300-450
+2025-07-05 01:28:22,468 - INFO - Human domain sequence: PGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:28:22,468 - INFO - Pig domain sequence: PLAITSSAVTGRMAMPGTGGIPGNSVLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQEDQGLTKDFSNSPLHRFKKPGSKNFQNIFPPSATLHLSNIP
+2025-07-05 01:28:22,469 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:28:22,469 - INFO - Predicting PTM sites for domain 300-450...
+2025-07-05 01:28:25,018 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:28:25,019 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:28:28,408 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:28:28,408 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:28:28,409 - INFO - Human PTM sites found: 0
+2025-07-05 01:28:28,409 - INFO - Pig PTM sites found: 0
+2025-07-05 01:28:28,409 - INFO - Analyzing PTM disruptions for domain 300-450...
+2025-07-05 01:28:28,409 - INFO - Starting PTM analysis for domain 300-450
+2025-07-05 01:28:28,410 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:28:28,410 - ERROR - Error analyzing PTM disruptions: name 'PTM_RESIDUES' is not defined
+2025-07-05 01:28:28,412 - INFO - Saved PTM disruption analysis for domain 300-450 to results/ptm_analysis/ptm_disruptions_domain_300_450.csv
+2025-07-05 01:28:28,412 - INFO - 
+Testing domain 5: 330-380
+2025-07-05 01:28:28,412 - INFO - Human domain sequence: QIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRH
+2025-07-05 01:28:28,412 - INFO - Pig domain sequence: NLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMN
+2025-07-05 01:28:28,413 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:28:28,413 - INFO - Predicting PTM sites for domain 330-380...
+2025-07-05 01:28:31,022 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:28:31,022 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:28:33,064 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:28:33,064 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:28:33,065 - INFO - Human PTM sites found: 0
+2025-07-05 01:28:33,065 - INFO - Pig PTM sites found: 0
+2025-07-05 01:28:33,065 - INFO - Analyzing PTM disruptions for domain 330-380...
+2025-07-05 01:28:33,065 - INFO - Starting PTM analysis for domain 330-380
+2025-07-05 01:28:33,066 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:28:33,066 - ERROR - Error analyzing PTM disruptions: name 'PTM_RESIDUES' is not defined
+2025-07-05 01:28:33,069 - INFO - Saved PTM disruption analysis for domain 330-380 to results/ptm_analysis/ptm_disruptions_domain_330_380.csv
+2025-07-05 01:28:33,069 - INFO - 
+Testing domain 6: 340-410
+2025-07-05 01:28:33,069 - INFO - Human domain sequence: FRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:28:33,069 - INFO - Pig domain sequence: GLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQE
+2025-07-05 01:28:33,070 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:28:33,070 - INFO - Predicting PTM sites for domain 340-410...
+2025-07-05 01:28:35,678 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=P04637&siteType=all
+2025-07-05 01:28:35,678 - INFO - Total PTM sites found for P04637: 0
+2025-07-05 01:28:37,747 - WARNING - Error fetching from PhosphoSitePlus: 404 Client Error: Not Found for url: https://www.phosphosite.org/uniprotSearchAction.action?uniprotAccession=A0A287BKT5&siteType=all
+2025-07-05 01:28:37,747 - INFO - Total PTM sites found for A0A287BKT5: 0
+2025-07-05 01:28:37,748 - INFO - Human PTM sites found: 0
+2025-07-05 01:28:37,748 - INFO - Pig PTM sites found: 0
+2025-07-05 01:28:37,748 - INFO - Analyzing PTM disruptions for domain 340-410...
+2025-07-05 01:28:37,748 - INFO - Starting PTM analysis for domain 340-410
+2025-07-05 01:28:37,748 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:28:37,748 - ERROR - Error analyzing PTM disruptions: name 'PTM_RESIDUES' is not defined
+2025-07-05 01:28:37,751 - INFO - Saved PTM disruption analysis for domain 340-410 to results/ptm_analysis/ptm_disruptions_domain_340_410.csv
+2025-07-05 01:28:37,753 - INFO - Saved combined PTM disruption analysis to results/ptm_analysis/ptm_disruptions_combined.csv
+2025-07-05 01:28:37,753 - INFO - 
+PTM Analysis Summary:
+2025-07-05 01:28:37,753 - INFO - Total disrupted sites across all domains: 0
+2025-07-05 01:30:04,428 - INFO - Fetching sequences...
+2025-07-05 01:30:11,547 - INFO - Successfully fetched sequence for P04637
+2025-07-05 01:30:14,624 - INFO - Successfully fetched sequence for A0A287BKT5
+2025-07-05 01:30:14,627 - INFO - 
+Testing domain 1: 360-393
+2025-07-05 01:30:14,627 - INFO - Human domain sequence: GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:30:14,627 - INFO - Pig domain sequence: KKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:30:14,628 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:30:14,628 - INFO - Predicting PTM sites for domain 360-393...
+2025-07-05 01:30:14,628 - INFO - Human PTM sites found: 0
+2025-07-05 01:30:14,628 - INFO - Pig PTM sites found: 0
+2025-07-05 01:30:14,628 - INFO - Analyzing PTM disruptions for domain 360-393...
+2025-07-05 01:30:14,628 - INFO - Starting PTM analysis for domain 360-393
+2025-07-05 01:30:14,628 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:30:14,629 - INFO - Human PTM sites found: 0
+2025-07-05 01:30:14,629 - INFO - Pig PTM sites found: 0
+2025-07-05 01:30:14,641 - INFO - Saved PTM disruption analysis for domain 360-393 to results/ptm_analysis/ptm_disruptions_domain_360_393.csv
+2025-07-05 01:30:14,641 - INFO - 
+Testing domain 2: 350-400
+2025-07-05 01:30:14,641 - INFO - Human domain sequence: KDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:30:14,641 - INFO - Pig domain sequence: DVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQ
+2025-07-05 01:30:14,641 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:30:14,641 - INFO - Predicting PTM sites for domain 350-400...
+2025-07-05 01:30:14,641 - INFO - Human PTM sites found: 0
+2025-07-05 01:30:14,641 - INFO - Pig PTM sites found: 0
+2025-07-05 01:30:14,641 - INFO - Analyzing PTM disruptions for domain 350-400...
+2025-07-05 01:30:14,641 - INFO - Starting PTM analysis for domain 350-400
+2025-07-05 01:30:14,641 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:30:14,641 - INFO - Human PTM sites found: 0
+2025-07-05 01:30:14,641 - INFO - Pig PTM sites found: 0
+2025-07-05 01:30:14,643 - INFO - Saved PTM disruption analysis for domain 350-400 to results/ptm_analysis/ptm_disruptions_domain_350_400.csv
+2025-07-05 01:30:14,643 - INFO - 
+Testing domain 3: 325-393
+2025-07-05 01:30:14,643 - INFO - Human domain sequence: EYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:30:14,643 - INFO - Pig domain sequence: VLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:30:14,643 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:30:14,643 - INFO - Predicting PTM sites for domain 325-393...
+2025-07-05 01:30:14,644 - INFO - Human PTM sites found: 0
+2025-07-05 01:30:14,644 - INFO - Pig PTM sites found: 0
+2025-07-05 01:30:14,644 - INFO - Analyzing PTM disruptions for domain 325-393...
+2025-07-05 01:30:14,644 - INFO - Starting PTM analysis for domain 325-393
+2025-07-05 01:30:14,644 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:30:14,644 - INFO - Human PTM sites found: 0
+2025-07-05 01:30:14,644 - INFO - Pig PTM sites found: 0
+2025-07-05 01:30:14,645 - INFO - Saved PTM disruption analysis for domain 325-393 to results/ptm_analysis/ptm_disruptions_domain_325_393.csv
+2025-07-05 01:30:14,645 - INFO - 
+Testing domain 4: 300-450
+2025-07-05 01:30:14,645 - INFO - Human domain sequence: PGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:30:14,645 - INFO - Pig domain sequence: PLAITSSAVTGRMAMPGTGGIPGNSVLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQEDQGLTKDFSNSPLHRFKKPGSKNFQNIFPPSATLHLSNIP
+2025-07-05 01:30:14,645 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:30:14,645 - INFO - Predicting PTM sites for domain 300-450...
+2025-07-05 01:30:14,645 - INFO - Human PTM sites found: 0
+2025-07-05 01:30:14,645 - INFO - Pig PTM sites found: 0
+2025-07-05 01:30:14,645 - INFO - Analyzing PTM disruptions for domain 300-450...
+2025-07-05 01:30:14,646 - INFO - Starting PTM analysis for domain 300-450
+2025-07-05 01:30:14,646 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:30:14,646 - INFO - Human PTM sites found: 0
+2025-07-05 01:30:14,646 - INFO - Pig PTM sites found: 0
+2025-07-05 01:30:14,647 - INFO - Saved PTM disruption analysis for domain 300-450 to results/ptm_analysis/ptm_disruptions_domain_300_450.csv
+2025-07-05 01:30:14,647 - INFO - 
+Testing domain 5: 330-380
+2025-07-05 01:30:14,647 - INFO - Human domain sequence: QIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRH
+2025-07-05 01:30:14,647 - INFO - Pig domain sequence: NLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMN
+2025-07-05 01:30:14,647 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:30:14,647 - INFO - Predicting PTM sites for domain 330-380...
+2025-07-05 01:30:14,647 - INFO - Human PTM sites found: 0
+2025-07-05 01:30:14,647 - INFO - Pig PTM sites found: 0
+2025-07-05 01:30:14,647 - INFO - Analyzing PTM disruptions for domain 330-380...
+2025-07-05 01:30:14,647 - INFO - Starting PTM analysis for domain 330-380
+2025-07-05 01:30:14,647 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:30:14,648 - INFO - Human PTM sites found: 0
+2025-07-05 01:30:14,648 - INFO - Pig PTM sites found: 0
+2025-07-05 01:30:14,649 - INFO - Saved PTM disruption analysis for domain 330-380 to results/ptm_analysis/ptm_disruptions_domain_330_380.csv
+2025-07-05 01:30:14,649 - INFO - 
+Testing domain 6: 340-410
+2025-07-05 01:30:14,649 - INFO - Human domain sequence: FRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:30:14,649 - INFO - Pig domain sequence: GLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQE
+2025-07-05 01:30:14,649 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:30:14,649 - INFO - Predicting PTM sites for domain 340-410...
+2025-07-05 01:30:14,649 - INFO - Human PTM sites found: 0
+2025-07-05 01:30:14,649 - INFO - Pig PTM sites found: 0
+2025-07-05 01:30:14,649 - INFO - Analyzing PTM disruptions for domain 340-410...
+2025-07-05 01:30:14,649 - INFO - Starting PTM analysis for domain 340-410
+2025-07-05 01:30:14,649 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:30:14,649 - INFO - Human PTM sites found: 0
+2025-07-05 01:30:14,649 - INFO - Pig PTM sites found: 0
+2025-07-05 01:30:14,651 - INFO - Saved PTM disruption analysis for domain 340-410 to results/ptm_analysis/ptm_disruptions_domain_340_410.csv
+2025-07-05 01:30:14,653 - INFO - Saved combined PTM disruption analysis to results/ptm_analysis/ptm_disruptions_combined.csv
+2025-07-05 01:30:14,653 - INFO - 
+PTM Analysis Summary:
+2025-07-05 01:30:14,653 - INFO - Total disrupted sites across all domains: 231
+2025-07-05 01:30:14,665 - INFO - 
+Domain-Specific Statistics:
+2025-07-05 01:30:14,665 - INFO - Domain 300-450:
+2025-07-05 01:30:14,665 - INFO -   Total disruptions: 63
+2025-07-05 01:30:14,665 - INFO -   Average similarity: 43.00
+2025-07-05 01:30:14,665 - INFO -   Common PTM change: ['phosphorylation'] -> []
+2025-07-05 01:30:14,665 - INFO -   Common residue change: S -> A
+2025-07-05 01:30:14,665 - INFO - Domain 325-393:
+2025-07-05 01:30:14,665 - INFO -   Total disruptions: 46
+2025-07-05 01:30:14,665 - INFO -   Average similarity: 24.00
+2025-07-05 01:30:14,665 - INFO -   Common PTM change: ['phosphorylation'] -> []
+2025-07-05 01:30:14,665 - INFO -   Common residue change: ['E -> F' 'E -> Y' 'G -> K' 'K -> A' 'S -> L' 'T -> L']
+2025-07-05 01:30:14,665 - INFO - Domain 330-380:
+2025-07-05 01:30:14,665 - INFO -   Total disruptions: 33
+2025-07-05 01:30:14,665 - INFO -   Average similarity: 14.00
+2025-07-05 01:30:14,665 - INFO -   Common PTM change: ["['phosphorylation'] -> []" "['ubiquitination'] -> []"]
+2025-07-05 01:30:14,665 - INFO -   Common residue change: ['E -> F' 'G -> K' 'K -> A']
+2025-07-05 01:30:14,665 - INFO - Domain 340-410:
+2025-07-05 01:30:14,666 - INFO -   Total disruptions: 35
+2025-07-05 01:30:14,666 - INFO -   Average similarity: 22.00
+2025-07-05 01:30:14,666 - INFO -   Common PTM change: ['phosphorylation'] -> []
+2025-07-05 01:30:14,666 - INFO -   Common residue change: ['E -> F' 'E -> Y' 'G -> K' 'K -> A' 'S -> L' 'T -> L']
+2025-07-05 01:30:14,666 - INFO - Domain 350-400:
+2025-07-05 01:30:14,666 - INFO -   Total disruptions: 30
+2025-07-05 01:30:14,666 - INFO -   Average similarity: 16.00
+2025-07-05 01:30:14,666 - INFO -   Common PTM change: ['phosphorylation'] -> []
+2025-07-05 01:30:14,666 - INFO -   Common residue change: ['G -> K' 'K -> A' 'S -> L' 'T -> L']
+2025-07-05 01:30:14,666 - INFO - Domain 360-393:
+2025-07-05 01:30:14,666 - INFO -   Total disruptions: 24
+2025-07-05 01:30:14,666 - INFO -   Average similarity: 9.00
+2025-07-05 01:30:14,666 - INFO -   Common PTM change: ['phosphorylation'] -> []
+2025-07-05 01:30:14,666 - INFO -   Common residue change: ['K -> A' 'S -> L' 'T -> L']
+2025-07-05 01:44:24,772 - INFO - Fetching sequences...
+2025-07-05 01:44:30,789 - INFO - Successfully fetched sequence for P04637
+2025-07-05 01:44:34,370 - INFO - Successfully fetched sequence for A0A287BKT5
+2025-07-05 01:44:34,374 - INFO - 
+Testing domain 1: 360-393
+2025-07-05 01:44:34,374 - INFO - Human domain sequence: GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:44:34,374 - INFO - Pig domain sequence: KKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:44:34,376 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:44:34,376 - INFO - Predicting PTM sites for domain 360-393...
+2025-07-05 01:44:34,376 - INFO - Human PTM sites found: 0
+2025-07-05 01:44:34,376 - INFO - Pig PTM sites found: 0
+2025-07-05 01:44:34,376 - INFO - Analyzing PTM disruptions for domain 360-393...
+2025-07-05 01:44:34,376 - INFO - Starting PTM analysis for domain 360-393
+2025-07-05 01:44:34,376 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:44:34,377 - INFO - Human PTM sites found: 0
+2025-07-05 01:44:34,377 - INFO - Pig PTM sites found: 0
+2025-07-05 01:44:34,384 - INFO - Saved PTM disruption analysis for domain 360-393 to results/ptm_analysis/ptm_disruptions_domain_360_393.csv
+2025-07-05 01:44:34,384 - INFO - 
+Testing domain 2: 350-400
+2025-07-05 01:44:34,384 - INFO - Human domain sequence: KDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:44:34,384 - INFO - Pig domain sequence: DVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQ
+2025-07-05 01:44:34,384 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:44:34,384 - INFO - Predicting PTM sites for domain 350-400...
+2025-07-05 01:44:34,385 - INFO - Human PTM sites found: 0
+2025-07-05 01:44:34,385 - INFO - Pig PTM sites found: 0
+2025-07-05 01:44:34,385 - INFO - Analyzing PTM disruptions for domain 350-400...
+2025-07-05 01:44:34,385 - INFO - Starting PTM analysis for domain 350-400
+2025-07-05 01:44:34,385 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:44:34,385 - INFO - Human PTM sites found: 0
+2025-07-05 01:44:34,385 - INFO - Pig PTM sites found: 0
+2025-07-05 01:44:34,386 - INFO - Saved PTM disruption analysis for domain 350-400 to results/ptm_analysis/ptm_disruptions_domain_350_400.csv
+2025-07-05 01:44:34,386 - INFO - 
+Testing domain 3: 325-393
+2025-07-05 01:44:34,386 - INFO - Human domain sequence: EYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:44:34,386 - INFO - Pig domain sequence: VLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:44:34,387 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:44:34,387 - INFO - Predicting PTM sites for domain 325-393...
+2025-07-05 01:44:34,387 - INFO - Human PTM sites found: 0
+2025-07-05 01:44:34,387 - INFO - Pig PTM sites found: 0
+2025-07-05 01:44:34,387 - INFO - Analyzing PTM disruptions for domain 325-393...
+2025-07-05 01:44:34,387 - INFO - Starting PTM analysis for domain 325-393
+2025-07-05 01:44:34,387 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:44:34,387 - INFO - Human PTM sites found: 0
+2025-07-05 01:44:34,388 - INFO - Pig PTM sites found: 0
+2025-07-05 01:44:34,388 - INFO - Saved PTM disruption analysis for domain 325-393 to results/ptm_analysis/ptm_disruptions_domain_325_393.csv
+2025-07-05 01:44:34,388 - INFO - 
+Testing domain 4: 300-450
+2025-07-05 01:44:34,388 - INFO - Human domain sequence: PGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:44:34,388 - INFO - Pig domain sequence: PLAITSSAVTGRMAMPGTGGIPGNSVLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQEDQGLTKDFSNSPLHRFKKPGSKNFQNIFPPSATLHLSNIP
+2025-07-05 01:44:34,389 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:44:34,389 - INFO - Predicting PTM sites for domain 300-450...
+2025-07-05 01:44:34,389 - INFO - Human PTM sites found: 0
+2025-07-05 01:44:34,389 - INFO - Pig PTM sites found: 0
+2025-07-05 01:44:34,389 - INFO - Analyzing PTM disruptions for domain 300-450...
+2025-07-05 01:44:34,389 - INFO - Starting PTM analysis for domain 300-450
+2025-07-05 01:44:34,389 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:44:34,390 - INFO - Human PTM sites found: 0
+2025-07-05 01:44:34,390 - INFO - Pig PTM sites found: 0
+2025-07-05 01:44:34,391 - INFO - Saved PTM disruption analysis for domain 300-450 to results/ptm_analysis/ptm_disruptions_domain_300_450.csv
+2025-07-05 01:44:34,391 - INFO - 
+Testing domain 5: 330-380
+2025-07-05 01:44:34,391 - INFO - Human domain sequence: QIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRH
+2025-07-05 01:44:34,391 - INFO - Pig domain sequence: NLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMN
+2025-07-05 01:44:34,391 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:44:34,391 - INFO - Predicting PTM sites for domain 330-380...
+2025-07-05 01:44:34,391 - INFO - Human PTM sites found: 0
+2025-07-05 01:44:34,391 - INFO - Pig PTM sites found: 0
+2025-07-05 01:44:34,391 - INFO - Analyzing PTM disruptions for domain 330-380...
+2025-07-05 01:44:34,391 - INFO - Starting PTM analysis for domain 330-380
+2025-07-05 01:44:34,392 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:44:34,392 - INFO - Human PTM sites found: 0
+2025-07-05 01:44:34,392 - INFO - Pig PTM sites found: 0
+2025-07-05 01:44:34,393 - INFO - Saved PTM disruption analysis for domain 330-380 to results/ptm_analysis/ptm_disruptions_domain_330_380.csv
+2025-07-05 01:44:34,393 - INFO - 
+Testing domain 6: 340-410
+2025-07-05 01:44:34,393 - INFO - Human domain sequence: FRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:44:34,393 - INFO - Pig domain sequence: GLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQE
+2025-07-05 01:44:34,393 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:44:34,393 - INFO - Predicting PTM sites for domain 340-410...
+2025-07-05 01:44:34,393 - INFO - Human PTM sites found: 0
+2025-07-05 01:44:34,393 - INFO - Pig PTM sites found: 0
+2025-07-05 01:44:34,393 - INFO - Analyzing PTM disruptions for domain 340-410...
+2025-07-05 01:44:34,393 - INFO - Starting PTM analysis for domain 340-410
+2025-07-05 01:44:34,393 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:44:34,393 - INFO - Human PTM sites found: 0
+2025-07-05 01:44:34,393 - INFO - Pig PTM sites found: 0
+2025-07-05 01:44:34,394 - INFO - Saved PTM disruption analysis for domain 340-410 to results/ptm_analysis/ptm_disruptions_domain_340_410.csv
+2025-07-05 01:44:34,395 - INFO - Saved combined PTM disruption analysis to results/ptm_analysis/ptm_disruptions_combined.csv
+2025-07-05 01:44:34,395 - INFO - 
+PTM Analysis Summary:
+2025-07-05 01:44:34,395 - INFO - Total disrupted sites across all domains: 0
+2025-07-05 01:46:01,170 - INFO - Fetching sequences...
+2025-07-05 01:46:05,946 - INFO - Successfully fetched sequence for P04637
+2025-07-05 01:46:09,735 - INFO - Successfully fetched sequence for A0A287BKT5
+2025-07-05 01:46:09,739 - INFO - 
+Testing domain 1: 360-393
+2025-07-05 01:46:09,739 - INFO - Human domain sequence: GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:46:09,739 - INFO - Pig domain sequence: KKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:46:09,740 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:46:09,740 - INFO - Predicting PTM sites for domain 360-393...
+2025-07-05 01:46:09,741 - INFO - Human PTM sites found: 6
+2025-07-05 01:46:09,741 - INFO - Pig PTM sites found: 3
+2025-07-05 01:46:09,741 - INFO - Analyzing PTM disruptions for domain 360-393...
+2025-07-05 01:46:09,741 - INFO - Starting PTM analysis for domain 360-393
+2025-07-05 01:46:09,741 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:46:09,741 - INFO - Human PTM sites found: 6
+2025-07-05 01:46:09,741 - INFO - Pig PTM sites found: 3
+2025-07-05 01:46:09,753 - INFO - Saved PTM disruption analysis for domain 360-393 to results/ptm_analysis/ptm_disruptions_domain_360_393.csv
+2025-07-05 01:46:09,753 - INFO - 
+Testing domain 2: 350-400
+2025-07-05 01:46:09,753 - INFO - Human domain sequence: KDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:46:09,753 - INFO - Pig domain sequence: DVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQ
+2025-07-05 01:46:09,753 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:46:09,753 - INFO - Predicting PTM sites for domain 350-400...
+2025-07-05 01:46:09,754 - INFO - Human PTM sites found: 6
+2025-07-05 01:46:09,754 - INFO - Pig PTM sites found: 4
+2025-07-05 01:46:09,754 - INFO - Analyzing PTM disruptions for domain 350-400...
+2025-07-05 01:46:09,754 - INFO - Starting PTM analysis for domain 350-400
+2025-07-05 01:46:09,754 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:46:09,754 - INFO - Human PTM sites found: 6
+2025-07-05 01:46:09,754 - INFO - Pig PTM sites found: 4
+2025-07-05 01:46:09,756 - INFO - Saved PTM disruption analysis for domain 350-400 to results/ptm_analysis/ptm_disruptions_domain_350_400.csv
+2025-07-05 01:46:09,756 - INFO - 
+Testing domain 3: 325-393
+2025-07-05 01:46:09,756 - INFO - Human domain sequence: EYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:46:09,756 - INFO - Pig domain sequence: VLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:46:09,756 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:46:09,756 - INFO - Predicting PTM sites for domain 325-393...
+2025-07-05 01:46:09,757 - INFO - Human PTM sites found: 12
+2025-07-05 01:46:09,757 - INFO - Pig PTM sites found: 4
+2025-07-05 01:46:09,757 - INFO - Analyzing PTM disruptions for domain 325-393...
+2025-07-05 01:46:09,757 - INFO - Starting PTM analysis for domain 325-393
+2025-07-05 01:46:09,757 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:46:09,757 - INFO - Human PTM sites found: 12
+2025-07-05 01:46:09,757 - INFO - Pig PTM sites found: 4
+2025-07-05 01:46:09,759 - INFO - Saved PTM disruption analysis for domain 325-393 to results/ptm_analysis/ptm_disruptions_domain_325_393.csv
+2025-07-05 01:46:09,759 - INFO - 
+Testing domain 4: 300-450
+2025-07-05 01:46:09,759 - INFO - Human domain sequence: PGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:46:09,759 - INFO - Pig domain sequence: PLAITSSAVTGRMAMPGTGGIPGNSVLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQEDQGLTKDFSNSPLHRFKKPGSKNFQNIFPPSATLHLSNIP
+2025-07-05 01:46:09,759 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:46:09,759 - INFO - Predicting PTM sites for domain 300-450...
+2025-07-05 01:46:09,760 - INFO - Human PTM sites found: 16
+2025-07-05 01:46:09,760 - INFO - Pig PTM sites found: 9
+2025-07-05 01:46:09,760 - INFO - Analyzing PTM disruptions for domain 300-450...
+2025-07-05 01:46:09,760 - INFO - Starting PTM analysis for domain 300-450
+2025-07-05 01:46:09,760 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:46:09,761 - INFO - Human PTM sites found: 16
+2025-07-05 01:46:09,761 - INFO - Pig PTM sites found: 9
+2025-07-05 01:46:09,762 - INFO - Saved PTM disruption analysis for domain 300-450 to results/ptm_analysis/ptm_disruptions_domain_300_450.csv
+2025-07-05 01:46:09,762 - INFO - 
+Testing domain 5: 330-380
+2025-07-05 01:46:09,762 - INFO - Human domain sequence: QIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRH
+2025-07-05 01:46:09,762 - INFO - Pig domain sequence: NLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMN
+2025-07-05 01:46:09,762 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:46:09,762 - INFO - Predicting PTM sites for domain 330-380...
+2025-07-05 01:46:09,762 - INFO - Human PTM sites found: 9
+2025-07-05 01:46:09,762 - INFO - Pig PTM sites found: 6
+2025-07-05 01:46:09,762 - INFO - Analyzing PTM disruptions for domain 330-380...
+2025-07-05 01:46:09,763 - INFO - Starting PTM analysis for domain 330-380
+2025-07-05 01:46:09,763 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:46:09,763 - INFO - Human PTM sites found: 9
+2025-07-05 01:46:09,763 - INFO - Pig PTM sites found: 6
+2025-07-05 01:46:09,764 - INFO - Saved PTM disruption analysis for domain 330-380 to results/ptm_analysis/ptm_disruptions_domain_330_380.csv
+2025-07-05 01:46:09,764 - INFO - 
+Testing domain 6: 340-410
+2025-07-05 01:46:09,764 - INFO - Human domain sequence: FRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:46:09,764 - INFO - Pig domain sequence: GLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQE
+2025-07-05 01:46:09,764 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:46:09,764 - INFO - Predicting PTM sites for domain 340-410...
+2025-07-05 01:46:09,765 - INFO - Human PTM sites found: 8
+2025-07-05 01:46:09,765 - INFO - Pig PTM sites found: 6
+2025-07-05 01:46:09,765 - INFO - Analyzing PTM disruptions for domain 340-410...
+2025-07-05 01:46:09,765 - INFO - Starting PTM analysis for domain 340-410
+2025-07-05 01:46:09,765 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:46:09,765 - INFO - Human PTM sites found: 8
+2025-07-05 01:46:09,765 - INFO - Pig PTM sites found: 6
+2025-07-05 01:46:09,766 - INFO - Saved PTM disruption analysis for domain 340-410 to results/ptm_analysis/ptm_disruptions_domain_340_410.csv
+2025-07-05 01:46:09,769 - INFO - Saved combined PTM disruption analysis to results/ptm_analysis/ptm_disruptions_combined.csv
+2025-07-05 01:46:09,769 - INFO - 
+PTM Analysis Summary:
+2025-07-05 01:46:09,769 - INFO - Total disrupted sites across all domains: 80
+2025-07-05 01:46:09,770 - ERROR - Error in main analysis: "Column(s) ['ptm_type_change', 'residue_change'] do not exist"
+2025-07-05 01:50:37,812 - INFO - Fetching sequences...
+2025-07-05 01:50:42,534 - INFO - Successfully fetched sequence for P04637
+2025-07-05 01:50:47,523 - INFO - Successfully fetched sequence for A0A287BKT5
+2025-07-05 01:50:47,527 - INFO - 
+Testing domain 1: 360-393
+2025-07-05 01:50:47,527 - INFO - Human domain sequence: GSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:50:47,527 - INFO - Pig domain sequence: KKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:50:47,528 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:50:47,528 - INFO - Predicting PTM sites for domain 360-393...
+2025-07-05 01:50:47,529 - INFO - Human PTM sites found: 6
+2025-07-05 01:50:47,529 - INFO - Pig PTM sites found: 3
+2025-07-05 01:50:47,529 - INFO - Analyzing PTM disruptions for domain 360-393...
+2025-07-05 01:50:47,529 - INFO - Starting PTM analysis for domain 360-393
+2025-07-05 01:50:47,529 - INFO - Sequence similarity score: 9.0
+2025-07-05 01:50:47,529 - INFO - Human PTM sites found: 6
+2025-07-05 01:50:47,529 - INFO - Pig PTM sites found: 3
+2025-07-05 01:50:47,542 - INFO - Saved PTM disruption analysis for domain 360-393 to results/ptm_analysis/ptm_disruptions_domain_360_393.csv
+2025-07-05 01:50:47,542 - INFO - 
+Testing domain 2: 350-400
+2025-07-05 01:50:47,542 - INFO - Human domain sequence: KDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:50:47,542 - INFO - Pig domain sequence: DVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQ
+2025-07-05 01:50:47,542 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:50:47,542 - INFO - Predicting PTM sites for domain 350-400...
+2025-07-05 01:50:47,542 - INFO - Human PTM sites found: 6
+2025-07-05 01:50:47,542 - INFO - Pig PTM sites found: 4
+2025-07-05 01:50:47,542 - INFO - Analyzing PTM disruptions for domain 350-400...
+2025-07-05 01:50:47,542 - INFO - Starting PTM analysis for domain 350-400
+2025-07-05 01:50:47,542 - INFO - Sequence similarity score: 16.0
+2025-07-05 01:50:47,543 - INFO - Human PTM sites found: 6
+2025-07-05 01:50:47,543 - INFO - Pig PTM sites found: 4
+2025-07-05 01:50:47,545 - INFO - Saved PTM disruption analysis for domain 350-400 to results/ptm_analysis/ptm_disruptions_domain_350_400.csv
+2025-07-05 01:50:47,545 - INFO - 
+Testing domain 3: 325-393
+2025-07-05 01:50:47,545 - INFO - Human domain sequence: EYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:50:47,545 - INFO - Pig domain sequence: VLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLR
+2025-07-05 01:50:47,545 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:50:47,545 - INFO - Predicting PTM sites for domain 325-393...
+2025-07-05 01:50:47,545 - INFO - Human PTM sites found: 12
+2025-07-05 01:50:47,545 - INFO - Pig PTM sites found: 4
+2025-07-05 01:50:47,545 - INFO - Analyzing PTM disruptions for domain 325-393...
+2025-07-05 01:50:47,545 - INFO - Starting PTM analysis for domain 325-393
+2025-07-05 01:50:47,545 - INFO - Sequence similarity score: 24.0
+2025-07-05 01:50:47,546 - INFO - Human PTM sites found: 12
+2025-07-05 01:50:47,546 - INFO - Pig PTM sites found: 4
+2025-07-05 01:50:47,547 - INFO - Saved PTM disruption analysis for domain 325-393 to results/ptm_analysis/ptm_disruptions_domain_325_393.csv
+2025-07-05 01:50:47,548 - INFO - 
+Testing domain 4: 300-450
+2025-07-05 01:50:47,548 - INFO - Human domain sequence: PGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:50:47,548 - INFO - Pig domain sequence: PLAITSSAVTGRMAMPGTGGIPGNSVLLVTNLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQEDQGLTKDFSNSPLHRFKKPGSKNFQNIFPPSATLHLSNIP
+2025-07-05 01:50:47,548 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:50:47,548 - INFO - Predicting PTM sites for domain 300-450...
+2025-07-05 01:50:47,548 - INFO - Human PTM sites found: 16
+2025-07-05 01:50:47,548 - INFO - Pig PTM sites found: 9
+2025-07-05 01:50:47,548 - INFO - Analyzing PTM disruptions for domain 300-450...
+2025-07-05 01:50:47,548 - INFO - Starting PTM analysis for domain 300-450
+2025-07-05 01:50:47,549 - INFO - Sequence similarity score: 43.0
+2025-07-05 01:50:47,549 - INFO - Human PTM sites found: 16
+2025-07-05 01:50:47,549 - INFO - Pig PTM sites found: 9
+2025-07-05 01:50:47,551 - INFO - Saved PTM disruption analysis for domain 300-450 to results/ptm_analysis/ptm_disruptions_domain_300_450.csv
+2025-07-05 01:50:47,551 - INFO - 
+Testing domain 5: 330-380
+2025-07-05 01:50:47,551 - INFO - Human domain sequence: QIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRH
+2025-07-05 01:50:47,551 - INFO - Pig domain sequence: NLNPDLVTPHGLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMN
+2025-07-05 01:50:47,551 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:50:47,551 - INFO - Predicting PTM sites for domain 330-380...
+2025-07-05 01:50:47,551 - INFO - Human PTM sites found: 9
+2025-07-05 01:50:47,551 - INFO - Pig PTM sites found: 6
+2025-07-05 01:50:47,551 - INFO - Analyzing PTM disruptions for domain 330-380...
+2025-07-05 01:50:47,551 - INFO - Starting PTM analysis for domain 330-380
+2025-07-05 01:50:47,551 - INFO - Sequence similarity score: 14.0
+2025-07-05 01:50:47,551 - INFO - Human PTM sites found: 9
+2025-07-05 01:50:47,551 - INFO - Pig PTM sites found: 6
+2025-07-05 01:50:47,553 - INFO - Saved PTM disruption analysis for domain 330-380 to results/ptm_analysis/ptm_disruptions_domain_330_380.csv
+2025-07-05 01:50:47,553 - INFO - 
+Testing domain 6: 340-410
+2025-07-05 01:50:47,553 - INFO - Human domain sequence: FRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+2025-07-05 01:50:47,553 - INFO - Pig domain sequence: GLFILFGVYGDVHRVKIMFNKKENALVQMADANQAQLAMNHLSGQRLYGKVLRATLSKHQAVQLPREGQE
+2025-07-05 01:50:47,553 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:50:47,553 - INFO - Predicting PTM sites for domain 340-410...
+2025-07-05 01:50:47,553 - INFO - Human PTM sites found: 8
+2025-07-05 01:50:47,553 - INFO - Pig PTM sites found: 6
+2025-07-05 01:50:47,553 - INFO - Analyzing PTM disruptions for domain 340-410...
+2025-07-05 01:50:47,553 - INFO - Starting PTM analysis for domain 340-410
+2025-07-05 01:50:47,553 - INFO - Sequence similarity score: 22.0
+2025-07-05 01:50:47,554 - INFO - Human PTM sites found: 8
+2025-07-05 01:50:47,554 - INFO - Pig PTM sites found: 6
+2025-07-05 01:50:47,555 - INFO - Saved PTM disruption analysis for domain 340-410 to results/ptm_analysis/ptm_disruptions_domain_340_410.csv
+2025-07-05 01:50:47,557 - INFO - Saved combined PTM disruption analysis to results/ptm_analysis/ptm_disruptions_combined.csv
+2025-07-05 01:50:47,558 - INFO - 
+PTM Analysis Summary:
+2025-07-05 01:50:47,558 - INFO - Total disrupted sites across all domains: 80

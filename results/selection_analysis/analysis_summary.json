@@ -1,0 +1,10 @@
+{
+  "dnds_results": {
+    "non_synonymous": 3115,
+    "synonymous": 367,
+    "dN/dS": 8.487738419618529,
+    "alignment_length": 19139
+  },
+  "splicing_results": "results/splicing_analysis",
+  "analysis_date": "2025-07-05 12:56:03.776846"
+}
