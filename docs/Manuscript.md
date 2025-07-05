@@ -256,6 +256,23 @@ Our analysis suggests an evolutionary "less-is-more" strategy in pigs:
    - Reduced regulatory complexity
    - Potential for more stable activation
 
+#### G. Oncogenic Enrichment Analysis
+
+1. **Enrichment of Oncogenic Variants**:
+   - Analysis of pig TP53 variants revealed significant enrichment in positions known to be oncogenic in humans
+   - Fisher's exact test showed highly significant enrichment (p-value = 1.26e-05)
+   - Enrichment ratio of 83.96 indicates pig variants are ~84 times more likely to occur at oncogenic positions
+
+2. **Domain-Specific Enrichment**:
+   - Domain-wise analysis showed differential enrichment patterns
+   - N-terminal domain showed highest enrichment of oncogenic variants
+   - This suggests conservation of critical oncogenic sites across species
+
+3. **Positional Distribution**:
+   - Visualization of variant positions revealed clustering in known oncogenic hotspots
+   - Overlapping variants concentrated in DNA-binding and oligomerization domains
+   - This pattern supports functional conservation of key regulatory sites
+
 3. **Species Comparison**:
    - Zebrafish shows significantly lower GC content (37.2%)
    - Mammalian species maintain higher GC content (53-54%)
