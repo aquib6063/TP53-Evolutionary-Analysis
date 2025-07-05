@@ -10,3 +10,4 @@ scikit-learn>=1.2.0
 plotly>=5.15.0
 networkx>=3.0
 python-dotenv>=1.0.0
+pymol>=2.5.0
