@@ -1,8 +1,11 @@
-import plotly.graph_objects as go
 import pandas as pd
 import numpy as np
 import logging
 from pathlib import Path
+import matplotlib.pyplot as plt
+import seaborn as sns
+from matplotlib.ticker import FuncFormatter
+import matplotlib.patches as patches
 
 # Setup logging
 def setup_logging():
@@ -12,7 +15,7 @@ def setup_logging():
     )
 
 def create_domain_comparison_plot():
-    """Create interactive plot comparing domains across species"""
+    """Create domain comparison plot using matplotlib"""
     try:
         # Create output directory
         output_dir = Path('results/interactive_plots')
@@ -25,62 +28,46 @@ def create_domain_comparison_plot():
         conservation = [89, 98, 40, 9]
         
         # Create figure
-        fig = go.Figure()
+        fig, ax1 = plt.subplots(figsize=(10, 6))
+        ax2 = ax1.twinx()
         
-        # Add GC content bars
-        fig.add_trace(go.Bar(
-            x=domains,
-            y=human_gc,
-            name='Human GC%',
-            marker_color='blue',
-            opacity=0.7
-        ))
+        # Create bar plots
+        bar_width = 0.35
+        x = np.arange(len(domains))
         
-        fig.add_trace(go.Bar(
-            x=domains,
-            y=pig_gc,
-            name='Pig GC%',
-            marker_color='orange',
-            opacity=0.7
-        ))
+        bars1 = ax1.bar(x - bar_width/2, human_gc, bar_width, label='Human GC%', color='blue', alpha=0.7)
+        bars2 = ax1.bar(x + bar_width/2, pig_gc, bar_width, label='Pig GC%', color='orange', alpha=0.7)
         
-        # Add conservation line
-        fig.add_trace(go.Scatter(
-            x=domains,
-            y=conservation,
-            name='Conservation %',
-            mode='lines+markers',
-            line=dict(color='red', width=3),
-            marker=dict(size=10)
-        ))
+        # Create line plot for conservation
+        ax2.plot(domains, conservation, 'r-', marker='o', label='Conservation %', linewidth=2)
         
-        # Update layout
-        fig.update_layout(
-            title='Domain-wise Comparison of GC Content and Conservation',
-            xaxis_title='Protein Domain',
-            yaxis_title='Percentage',
-            yaxis2=dict(
-                title='Conservation %',
-                overlaying='y',
-                side='right'
-            ),
-            barmode='group',
-            legend_title='Species/Metric',
-            height=600,
-            width=1000
-        )
+        # Format axes
+        ax1.set_xlabel('Protein Domain')
+        ax1.set_ylabel('GC Content (%)')
+        ax2.set_ylabel('Residue Conservation (%)')
         
-        # Save as HTML
-        output_file = output_dir / 'domain_comparison.html'
-        fig.write_html(output_file)
-        logging.info(f"Interactive plot saved to: {output_file}")
+        # Add title and grid
+        plt.title('Domain-wise Comparison of GC Content and Conservation')
+        plt.grid(True, alpha=0.3)
+        
+        # Add legend
+        lines, labels = ax2.get_legend_handles_labels()
+        bars, bar_labels = ax1.get_legend_handles_labels()
+        ax2.legend(lines + bars, labels + bar_labels, loc='upper right')
+        
+        # Save PNG
+        png_file = output_dir / 'domain_comparison.png'
+        plt.tight_layout()
+        plt.savefig(png_file, dpi=300, bbox_inches='tight')
+        plt.close()
+        logging.info(f"PNG saved to: {png_file}")
         
     except Exception as e:
         logging.error(f"Error creating domain comparison plot: {str(e)}")
         raise
 
 def create_variant_position_plot():
-    """Create interactive plot showing variant positions"""
+    """Create variant position plot using matplotlib"""
     try:
         # Create output directory
         output_dir = Path('results/interactive_plots')
@@ -90,27 +77,24 @@ def create_variant_position_plot():
         variants = pd.read_csv('results/variant_analysis/high_impact_variants.csv')
         
         # Create figure
-        fig = go.Figure()
+        fig, ax = plt.subplots(figsize=(12, 6))
         
-        # Add scatter plot
-        fig.add_trace(go.Scatter(
-            x=variants['Position'],
-            y=[1] * len(variants),
-            mode='markers',
-            marker=dict(
-                size=10,
-                color=variants['IMPACT'].map({
-                    'HIGH': 'red',
-                    'MODERATE': 'orange',
-                    'LOW': 'green'
-                }),
-                opacity=0.7
-            ),
-            hovertext=variants['Position'].astype(str) + ': ' + 
-                     variants['IMPACT'] + ' - ' + 
-                     variants['VARIANT_TYPE'],
-            hoverinfo='text'
-        ))
+        # Create scatter plot with different colors for impact levels
+        color_map = {
+            'HIGH': 'red',
+            'MODERATE': 'orange',
+            'LOW': 'green'
+        }
+        
+        for impact, color in color_map.items():
+            mask = variants['IMPACT'] == impact
+            ax.scatter(
+                variants[mask]['Position'],
+                [1] * mask.sum(),
+                color=color,
+                label=f'{impact} Impact',
+                alpha=0.7
+            )
         
         # Add domain boundaries
         domain_boundaries = {
@@ -120,52 +104,48 @@ def create_variant_position_plot():
             'C-terminal': (363, 393)
         }
         
+        # Add domain rectangles and labels
         for name, (start, end) in domain_boundaries.items():
-            fig.add_shape(
-                type='rect',
-                x0=start,
-                x1=end,
-                y0=0,
-                y1=2,
-                fillcolor='lightgray',
-                opacity=0.3,
-                line=dict(width=0)
+            ax.add_patch(
+                patches.Rectangle(
+                    (start, 0),
+                    end - start,
+                    2,
+                    alpha=0.3,
+                    color='gray'
+                )
             )
-            
-            fig.add_annotation(
-                x=(start + end) / 2,
-                y=1.5,
-                text=name,
-                showarrow=False,
-                font=dict(size=12)
+            ax.text(
+                (start + end) / 2,
+                1.5,
+                name,
+                ha='center',
+                fontsize=12
             )
         
-        # Update layout
-        fig.update_layout(
-            title='Variant Positions Across TP53 Domains',
-            xaxis_title='Amino Acid Position',
-            yaxis_title='Impact Level',
-            yaxis=dict(
-                tickvals=[0, 1, 2],
-                ticktext=['Low', 'Medium', 'High'],
-                range=[-0.5, 2.5]
-            ),
-            height=600,
-            width=1200,
-            showlegend=False
-        )
+        # Format axes and labels
+        ax.set_xlabel('Amino Acid Position')
+        ax.set_yticks([0, 1, 2])
+        ax.set_yticklabels(['Low', 'Medium', 'High'])
+        ax.set_ylim(-0.5, 2.5)
         
-        # Save as HTML
-        output_file = output_dir / 'variant_positions.html'
-        fig.write_html(output_file)
-        logging.info(f"Interactive plot saved to: {output_file}")
+        # Add title and legend
+        plt.title('Variant Positions Across TP53 Domains')
+        plt.legend()
+        
+        # Save PNG
+        png_file = output_dir / 'variant_positions.png'
+        plt.tight_layout()
+        plt.savefig(png_file, dpi=300, bbox_inches='tight')
+        plt.close()
+        logging.info(f"PNG saved to: {png_file}")
         
     except Exception as e:
         logging.error(f"Error creating variant position plot: {str(e)}")
         raise
 
 def create_dnds_plot():
-    """Create interactive plot showing dN/dS ratios"""
+    """Create dN/dS plot using matplotlib"""
     try:
         # Create output directory
         output_dir = Path('results/interactive_plots')
@@ -176,49 +156,37 @@ def create_dnds_plot():
         dnds = [1.2, 0.8, 1.5, 8.49]
         
         # Create figure
-        fig = go.Figure()
+        fig, ax = plt.subplots(figsize=(10, 6))
         
-        # Add bars
-        fig.add_trace(go.Bar(
-            x=domains,
-            y=dnds,
-            marker_color='skyblue',
-            opacity=0.7
-        ))
+        # Create bar plot
+        bars = ax.bar(domains, dnds, color='skyblue', alpha=0.7)
         
-        # Add neutral line
-        fig.add_shape(
-            type='line',
-            x0=-0.5,
-            x1=3.5,
-            y0=1,
-            y1=1,
-            line=dict(color='red', dash='dash')
+        # Add neutral evolution line
+        ax.axhline(y=1, color='red', linestyle='--', label='Neutral Evolution')
+        
+        # Add text annotation for neutral evolution
+        ax.text(
+            len(domains) - 0.5,
+            1.05,
+            'Neutral Evolution',
+            color='red',
+            ha='right'
         )
         
-        # Add annotations
-        fig.add_annotation(
-            x=3.5,
-            y=1,
-            text='Neutral Evolution',
-            showarrow=False,
-            xshift=10,
-            font=dict(color='red')
-        )
+        # Format axes and labels
+        ax.set_xlabel('Protein Domain')
+        ax.set_ylabel('dN/dS Ratio')
+        ax.set_title('dN/dS Ratios Across TP53 Domains')
         
-        # Update layout
-        fig.update_layout(
-            title='dN/dS Ratios Across TP53 Domains',
-            xaxis_title='Protein Domain',
-            yaxis_title='dN/dS Ratio',
-            height=600,
-            width=1000
-        )
+        # Add grid
+        ax.grid(True, alpha=0.3)
         
-        # Save as HTML
-        output_file = output_dir / 'dnds_ratios.html'
-        fig.write_html(output_file)
-        logging.info(f"Interactive plot saved to: {output_file}")
+        # Save PNG
+        png_file = output_dir / 'dnds_ratios.png'
+        plt.tight_layout()
+        plt.savefig(png_file, dpi=300, bbox_inches='tight')
+        plt.close()
+        logging.info(f"PNG saved to: {png_file}")
         
     except Exception as e:
         logging.error(f"Error creating dN/dS plot: {str(e)}")
