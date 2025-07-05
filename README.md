@@ -1,23 +1,10 @@
 # TP53 Evolutionary Analysis
 
-This repository contains code and data for analyzing TP53 gene sequences across multiple species.
+This repository contains comprehensive analysis code and results for studying TP53 evolutionary patterns in pigs and other species, focusing on oncogenic enrichment and functional conservation.
 
-## Project Structure
+## Project Overview
 
-```
-TP53_analysis/
-├── data/
-│   ├── raw_sequences/
-│   │   ├── Human_TP53.fasta
-│   │   ├── Pig_TP53.fasta
-│   │   ├── Rhesus_Monkey_TP53.fasta
-│   │   ├── Zebrafish_TP53.fasta
-│   │   └── Rat_TP53.fasta
-│   └── processed/
-│       └── all_species_aligned.clustal
-├── scripts/
-│   ├── 1_download_sequences.py
-│   ├── 2_run_alignment.py
+This project investigates the evolutionary patterns of TP53 across multiple species, with a focus on identifying oncogenic enrichment patterns and functional conservation in pig TP53. The analysis includes:
 │   ├── 3_analyze_variations.py
 │   ├── 4_gc_content_analysis.py
 │   └── 5_generate_figures.py
