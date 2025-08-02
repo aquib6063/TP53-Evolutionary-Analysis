@@ -1,0 +1,32 @@
+# First, let's see where we can write
+echo "Home directory: $HOME"
+echo "Current directory: $(pwd)"
+
+# Check if we can create a directory in the home folder
+TEST_DIR="$HOME/TP53_Test_Dir"
+mkdir -p "$TEST_DIR" && echo "Successfully created test directory at $TEST_DIR" || echo "Failed to create test directory"
+
+# If that fails, let's try the Documents folder
+if [ ! -d "$TEST_DIR" ]; then
+    TEST_DIR="$HOME/Documents/TP53_Test_Dir"
+    mkdir -p "$TEST_DIR" && echo "Successfully created test directory at $TEST_DIR" || echo "Failed to create test directory in Documents"
+fi
+
+# If we still can't create, let's use /tmp
+if [ ! -d "$TEST_DIR" ]; then
+    TEST_DIR="/tmp/TP53_Project_$(date +%s)"
+    mkdir -p "$TEST_DIR" && echo "Successfully created test directory at $TEST_DIR" || echo "Failed to create test directory in /tmp"
+fi
+
+# Let's see what permissions we have
+echo -e "\n=== Disk Space ==="
+df -h
+
+echo -e "\n=== Directory Permissions ==="
+ls -ld ~ ~/Documents /tmp
+
+# Create a simple test file
+echo "Test content" > "$TEST_DIR/test_file.txt" && echo "Successfully created test file" || echo "Failed to create test file"
+
+# Show where we can work
+echo -e "\nWe can work in: $TEST_DIR"

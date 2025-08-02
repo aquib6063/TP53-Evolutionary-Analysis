@@ -1,0 +1,21 @@
+\subsection{Sequence Retrieval and Processing}
+TP53 coding sequences from eleven mammalian species were retrieved from NCBI RefSeq. The dataset included both domesticated and wild species with diverse body sizes and cancer susceptibilities. Sequences were verified for correct start/stop codons and reading frame integrity. Accession numbers and species information are provided in Supplementary Table S1.
+
+\subsection{Multiple Sequence Alignment and Phylogenetic Analysis}
+Codon-aware multiple sequence alignment was performed using MAFFT v7.471 with the L-INS-i algorithm \citep{katoh2013mafft}. The resulting alignment was manually inspected and trimmed to the coding region. Phylogenetic analysis was conducted using IQ-TREE v2.1.2 with ModelFinder for best-fit model selection and 1000 ultrafast bootstrap replicates \citep{nguyen2015iqtree}.
+
+\subsection{Evolutionary Analysis}
+\subsubsection{Selection Pressure Analysis}
+The ratio of non-synonymous to synonymous substitutions (dN/dS, or ω) was calculated using the branch-site model in CodeML from the PAML package \citep{yang2007paml}. The pig lineage was tested for positive selection using likelihood ratio tests comparing models that allow (Model A) or disallow (Model A null) sites under positive selection in the foreground branch.
+
+\subsubsection{Base Composition Analysis}
+GC content and nucleotide frequencies were calculated for the full coding sequence and each functional domain (NTD, DBD, OD, CTD) using custom Python scripts. ΔGC was calculated as GC$_{species}$ - GC$_{human}$ for each domain. Statistical significance was assessed using two-tailed t-tests with Bonferroni correction for multiple comparisons.
+
+\subsection{Post-Translational Modification Prediction}
+PTM sites were predicted using NetPhos 3.1 for phosphorylation, NetAcet 1.0 for acetylation, and UbPred for ubiquitination sites \citep{blom1999sequence, kiemer2005netacet, radivojac2010identification}. Conservation of PTM sites across species was determined by multiple sequence alignment and manual inspection.
+
+\subsection{Structural Analysis}
+Homology models of TP53 CTD from each species were generated using MODELLER 10.1 \citep{webb2014comparative} based on the human TP53 CTD structure (PDB: 2OCJ). Models were energy-minimized using GROMACS 2021.3 \citep{abraham2015gromacs} and validated using PROCHECK \citep{laskowski1993procheck}. Structural comparisons were performed using PyMOL (Schrödinger, LLC).
+
+\subsection{Statistical Analysis}
+All statistical analyses were performed in R v4.1.0. Correlations between CTD properties and cancer resistance were assessed using Pearson's correlation coefficient. Phylogenetic generalized least squares (PGLS) regression was used to account for phylogenetic non-independence \citep{revell2010phylogenetic}.

@@ -1,0 +1,46 @@
+# TP53 Evolutionary Analysis Configuration
+
+# Reference sequence information
+reference:
+  species: human
+  accession: NM_000546  # Human TP53 canonical transcript
+  cds_start: 1
+  cds_end: 1182
+  ctd_start: 1071
+  ctd_end: 1179
+
+# Analysis parameters
+analysis:
+  # Base composition
+  gc_window: 30  # Window size for GC content sliding window analysis
+  
+  # Phylogenetic analysis
+  phylogeny:
+    aligner: mafft
+    aligner_params: "--auto --thread -1"
+    tree_builder: iqtree
+    tree_params: "-m MFP -bb 1000 -nt AUTO"
+    
+  # PTM prediction
+  ptm:
+    tools:
+      - name: netphos
+        type: phosphorylation
+      - name: netacet
+        type: acetylation
+      - name: ubpred
+        type: ubiquitination
+    
+  # Structure prediction
+  structure:
+    methods:
+      - alphafold2
+      - iupred  # Intrinsic disorder prediction
+      - dssp    # Secondary structure prediction
+
+# Output settings
+output:
+  format: png  # or pdf, svg
+  dpi: 300
+  width: 10    # inches
+  height: 8    # inches
